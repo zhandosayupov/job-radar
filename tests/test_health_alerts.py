@@ -78,7 +78,10 @@ def test_alerter_sends_payload():
     a = Alerter(TOKEN, "42", transport=httpx.MockTransport(handler))
     assert a.send("hello") is True
     assert seen[0].url.path == f"/bot{TOKEN}/sendMessage"
-    assert b'"chat_id":"42"' in seen[0].content.replace(b" ", b"")
+    body = seen[0].content.replace(b" ", b"")
+    assert b'"chat_id":"42"' in body and b'"disable_notification":false' in body
+    assert a.send("quiet", silent=True) is True
+    assert b'"disable_notification":true' in seen[1].content.replace(b" ", b"")
 
 
 @pytest.mark.parametrize("mode", ["raise", "500"])

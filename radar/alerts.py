@@ -39,14 +39,21 @@ class Alerter:
     def _mask(self, s: str) -> str:
         return s.replace(self.token, "***") if self.token else s
 
-    def send(self, text: str) -> bool:
+    def send(self, text: str, silent: bool = False) -> bool:
+        """silent=True delivers without a notification sound (routine summaries);
+        alerts that need attention are sent with sound."""
         if not self.enabled:
             return False
         try:
             with httpx.Client(timeout=15, transport=self.transport) as c:
                 r = c.post(
                     f"https://api.telegram.org/bot{self.token}/sendMessage",
-                    json={"chat_id": self.chat_id, "text": text[:4000], "disable_web_page_preview": True},
+                    json={
+                        "chat_id": self.chat_id,
+                        "text": text[:4000],
+                        "disable_web_page_preview": True,
+                        "disable_notification": silent,
+                    },
                 )
             if r.status_code != 200:
                 self.last_error = f"telegram HTTP {r.status_code}"

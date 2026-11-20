@@ -18,10 +18,12 @@ NOW = datetime(2026, 11, 20, 12, 0, tzinfo=timezone.utc)
 class FakeAlerter:
     def __init__(self):
         self.sent = []
+        self.silent = []
         self.last_error = None
 
-    def send(self, text):
+    def send(self, text, silent=False):
         self.sent.append(text)
+        self.silent.append(silent)
         return True
 
 
@@ -121,6 +123,7 @@ def test_failing_source_is_isolated_and_alerted(tmp_path):
     assert src["hn"]["status"] == "blocked" and "403" in src["hn"]["detail"]
     assert src["greenhouse"]["status"] == "ok" and src["wwr"]["status"] == "ok"
     assert len(alerter.sent) == 1 and "hn: broke (blocked)" in alerter.sent[0]
+    assert alerter.silent == [False]  # needs attention -> with sound
 
 
 def test_parser_crash_becomes_error_not_crash(tmp_path):
@@ -213,6 +216,7 @@ def test_summary_sent_every_run_by_default(tmp_path):
     assert a.sent[0].startswith("📡 job-radar: ") and "top new:" in a.sent[0]
     assert "📡 job-radar: 0 new, 0 kept" in a.sent[1] and "top new:" not in a.sent[1]
     assert "⏱ " in a.sent[0] and "month " in a.sent[0]
+    assert a.silent == [True, True]  # routine summaries are silent
 
 
 def test_summary_on_new_skips_quiet_runs(tmp_path):
@@ -242,3 +246,19 @@ def test_budget_hard_limit_notifies(tmp_path):
     a = FakeAlerter()
     go(cfg, data, alerter=a)
     assert len(a.sent) == 1 and "budget hard limit" in a.sent[0]
+    assert a.silent == [False]
+
+
+def test_old_pending_items_get_full_text_backfilled(tmp_path):
+    cfg = write_cfg(tmp_path, settings={"inbox": {"text_chars": 0}})
+    data = tmp_path / "data"
+    go(cfg, data)  # old engine behaviour: no `text`
+    before = read_jsonl(data / "inbox" / "pending.jsonl")
+    assert all("text" not in p for p in before)
+    (cfg / "settings.yaml").unlink()
+    rep = go(cfg, data)
+    after = {p["id"]: p for p in read_jsonl(data / "inbox" / "pending.jsonl")}
+    assert rep.new_total == 0 and rep.manifest["text_backfilled"] == len(before)
+    assert all("text" in after[p["id"]] and after[p["id"]]["first_seen"] == p["first_seen"] for p in before)
+    rep3 = go(cfg, data)
+    assert rep3.manifest["text_backfilled"] == 0  # only once

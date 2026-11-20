@@ -143,6 +143,9 @@ def run(
     ctx = RunContext(now_iso=now_iso, settings=settings, companies=cfg["companies"].get("companies", []), cursors=cursors)
     prefilter = Prefilter(settings)
     text_chars = int(inbox_cfg.get("text_chars", 8000))
+    # Pending items written before full text existed get it the next time their source returns them.
+    need_text = {p["id"] for p in pending if "text" not in p} if text_chars > 0 else set()
+    refreshed: dict[str, Job] = {}
     run_budget_s = float(settings.get("budget", {}).get("run_time_budget_s", 480))
     new_items: list[dict] = []
     new_ids: set[str] = set()
@@ -166,6 +169,8 @@ def run(
             n_new = 0
             for job in outcome.jobs:
                 if job.id in seen or job.id in new_ids:
+                    if job.id in need_text:
+                        refreshed[job.id] = job
                     continue
                 new_ids.add(job.id)
                 n_new += 1
@@ -199,11 +204,16 @@ def run(
             http.close()
 
     # --- merge / inbox ---------------------------------------------------------------
+    if refreshed:
+        pending = [
+            {**refreshed[p["id"]].inbox_dict(text_chars), "first_seen": p["first_seen"]} if p["id"] in refreshed else p
+            for p in pending
+        ]
     if closed_ids:
         pending = [p for p in pending if p["id"] not in closed_ids]
     merged, dupes = merge(pending, new_items, _rank)
     inbox, overflow, tokens = split_inbox(
-        merged, int(inbox_cfg.get("max_items", 150)), int(inbox_cfg.get("max_tokens", 60000))
+        merged, int(inbox_cfg.get("max_items", 150)), int(inbox_cfg.get("max_tokens", 90000))
     )
 
     # --- health / alerts ---------------------------------------------------------------
@@ -224,6 +234,7 @@ def run(
         "removed_labeled": removed_labeled,
         "removed_closed": len(closed_ids),
         "expired": expired,
+        "text_backfilled": len(refreshed),
         "dropped_by_rule": dict(sorted(prefilter.counts.items())),
         "sources": per_source,
         "persistent_failures": persistent,
@@ -262,8 +273,8 @@ def run(
             log("telegram (dry-run, not sent):\n" + text)
         else:
             alerter = alerter or Alerter()
-            sent = alerter.send(text)
-            why = "sent" if sent else f"not sent ({alerter.last_error or 'not configured'})"
+            sent = alerter.send(text, silent=not events)
+            why = ("sent silently" if not events else "sent with sound") if sent else f"not sent ({alerter.last_error or 'not configured'})"
             log(f"telegram: summary {why}" + (f", {len(events)} health event(s)" if events else ""))
     return report
 
