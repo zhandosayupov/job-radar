@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "job-radar"
+version = "0.1.0"
+description = "Read-only job collection pipeline: fetch, normalize, dedupe, prefilter, write a compact inbox."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.12"
+dependencies = [
+  "httpx>=0.27,<1",
+  "selectolax>=1.0",
+  "feedparser>=6.0",
+  "pydantic>=2.6,<3",
+  "pyyaml>=6",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+telegram = ["telethon>=1.36"]
+
+[tool.setuptools.packages.find]
+include = ["radar*"]
+
+[tool.setuptools.package-data]
+radar = ["defaults/*.yaml"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+markers = ["live: hits real endpoints; excluded by default (run with -m live)"]

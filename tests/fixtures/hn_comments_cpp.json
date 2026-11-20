@@ -1,0 +1,185 @@
+{
+ "hits": [
+  {
+   "_tags": [
+    "comment",
+    "author_playfair11",
+    "story_50338728"
+   ],
+   "comment_text": "Polymath | Founding MTS, Full-Stack | San Francisco | ONSITE (5 days) | $160K–$220K + 0.75%–1.5% equity | <a href=\"https:&#x2F;&#x2F;polymathmade.com\" rel=\"nofollow\">https:&#x2F;&#x2F;polymathmade.com</a><p>Polymath builds AI agents that read engineering drawings, generate CAD models, and rebuild parts across CAD systems. We&#x27;re VC-backed, Harvard- and Stanford-founded, in production with our first product, and running pilots with Fortune 100 manufacturers in aerospace and consumer hardware.<p>We&#x27;re hiring our first dedicated full-stack engineer to own the product stack end to end: the chat UIs inside CAD (TypeScript&#x2F;React over MCP and REST), the Python&#x2F;FastAPI services behind them (auth, job orchestration, metered billing with Auth0 and Stripe), and the pipeline that packages and deploys it all. You report to the CEO, join customer calls, and set the standards for the next ten hires.<p>Looking for: 5+ years running production web apps with ownership across front end, API, and deployment; prior early-stage experience (first 50 engineers somewhere); TypeScript and Python; shipped on AWS or GCP with Terraform&#x2F;CloudFormation and Kubernetes&#x2F;ECS&#x2F;Cloud Run. Nice to have: LLM product ops, enterprise SSO, C#&#x2F;C++ desktop packaging, any CAD or mech-eng curiosity.<p>Must be authorized to work in the U.S. Immediate start.<p>Apply: email careers@polymathmade.com with a resume, a GitHub or portfolio link if you have one, and a few sentences on a system you built and ran in production. I read every application and reply within a week. Full JD: <a href=\"https:&#x2F;&#x2F;polymath-ai.notion.site&#x2F;careers-1\" rel=\"nofollow\">https:&#x2F;&#x2F;polymath-ai.notion.site&#x2F;careers-1</a>",
+   "created_at": "2026-11-09T22:07:39Z",
+   "created_at_i": 1794262059,
+   "objectID": "50432950",
+   "parent_id": 50338728,
+   "story_id": 50338728,
+   "story_title": "Ask HN: Who is hiring? (November 2026)",
+   "updated_at": "2026-11-19T23:44:58Z"
+  },
+  {
+   "_tags": [
+    "comment",
+    "author_OpenTrainAI",
+    "story_50338728"
+   ],
+   "comment_text": "OpenTrain AI | REMOTE (US) | Part-time | Backend Engineer, AI Coding Task Design<p>OpenTrain AI connects experienced professionals with paid, part-time AI training work. We are the hiring company and are actively filling this role.<p>- $30–$100 per hour equivalent, paid per accepted task\n- 100% remote, United States\n- About 15 hours&#x2F;week; choose your schedule<p>We need backend engineers to design realistic coding tasks for AI systems, write deterministic verifiers, assess correctness and code quality, and apply secure coding and security review where relevant. This work helps improve AI systems that write software.<p>Ideal background\n- Strong professional backend experience with Python, Java, Node.js, Go, Rust, TypeScript, C++ or similar\n- Scalable APIs&#x2F;services, complex features, debugging, bottleneck resolution and code review\n- Strong analytical, problem-solving and technical communication skills; professional English\n- Helpful: application security, secure coding, vulnerability assessment, penetration testing, OWASP&#x2F;CWE or security-focused code review\n- No AI experience needed; structured task-design guidelines and verification criteria are provided<p>Independent contractor; pay is per accepted task. Fully remote and flexible, with no fixed shifts. Apply on OpenTrain (resume upload): <a href=\"https:&#x2F;&#x2F;app.opentrain.ai&#x2F;api&#x2F;out&#x2F;cmu9linxg000o0bgm9xiw33b9?ch=news-ycombinator-com&amp;sub=news-ycombinator-com-cmu9linxg-us-2026-11\" rel=\"nofollow\">https:&#x2F;&#x2F;app.opentrain.ai&#x2F;api&#x2F;out&#x2F;cmu9linxg000o0bgm9xiw33b9?c...</a><p>Then complete a short application on the hiring platform. Shortlisted applicants take a short AI interview.",
+   "created_at": "2026-11-09T02:48:07Z",
+   "created_at_i": 1794192487,
+   "objectID": "50420399",
+   "parent_id": 50338728,
+   "story_id": 50338728,
+   "story_title": "Ask HN: Who is hiring? (November 2026)",
+   "updated_at": "2026-11-15T00:20:55Z"
+  },
+  {
+   "_tags": [
+    "comment",
+    "author_niuro",
+    "story_50338728"
+   ],
+   "comment_text": "Nirvana Robotics | Mechanical Engineer, Electrical Engineer, Robotic Controls Engineer | New York, NY | ONSITE | Full-time | $220K-$300K<p>Nirvana Robotics builds humanoid robots with robotic arms that work in industrial environments. Their hardware team in NYC is growing, and each of these roles owns a subsystem end to end on physical robots. I&#x27;m a recruiter at Niuro, Nirvana&#x27;s hiring partner for these roles; the links below go to our application form and I read every application myself.<p>Mechanical Engineer ($230K-$260K): mechanical design of robotic arms and manipulators: joints, actuators, transmissions, end effectors. You optimize for torque density, backdrivability and stiffness, prototype with additive and precision machining, and take assemblies to production. GD&amp;T, tolerance stack-ups, SolidWorks (or Creo&#x2F;NX&#x2F;Onshape).\nApply: <a href=\"https:&#x2F;&#x2F;app.niuro.io&#x2F;source&#x2F;H4yYHesP?ref=ps_EBRp88zU7jcdRZm8VJc8s6Wt_yVsmnoS1d4y2CMGR1k&amp;utm_source=hacker-news&amp;utm_medium=job-board&amp;utm_campaign=mechanical-engineer-newyork-onsite&amp;utm_content=hn-whoishiring-202611\" rel=\"nofollow\">https:&#x2F;&#x2F;app.niuro.io&#x2F;source&#x2F;H4yYHesP?ref=ps_EBRp88zU7jcdRZm8...</a><p>Electrical Engineer ($220K-$250K): electrical architecture for arms and humanoids: power distribution, motor-driver boards, sensor PCBs, harnessing. Multilayer mixed-signal and high-current layout in Altium, BLDC drivers and current sensing, bench bring-up and DFM with PCBA partners. EtherCAT, CAN or BMS is a plus.\nApply: <a href=\"https:&#x2F;&#x2F;app.niuro.io&#x2F;source&#x2F;BeVx3CrN?ref=ps_5biniQ0FTotNxfmTh3F-l_F_F5JJz9i3GVeRX74xl_o&amp;utm_source=hacker-news&amp;utm_medium=job-board&amp;utm_campaign=electrical-engineer-newyork-onsite&amp;utm_content=hn-whoishiring-202611\" rel=\"nofollow\">https:&#x2F;&#x2F;app.niuro.io&#x2F;source&#x2F;BeVx3CrN?ref=ps_5biniQ0FTotNxfmT...</a><p>Robotic Controls Engineer ($270K-$300K): low-level control for multi-DOF arms: joint-level actuation, impedance&#x2F;admittance and whole-body control, sim-to-real. PID&#x2F;LQR&#x2F;state-space, MoveIt or cuRobo, C++ and Python, ROS 2.\nApply: <a href=\"https:&#x2F;&#x2F;app.niuro.io&#x2F;source&#x2F;gUNqx8Lj?ref=ps_BdIAhZPrP7yQt2P4cWjzv8KdhNxYQ0txP6u6FT47lYU&amp;utm_source=hacker-news&amp;utm_medium=job-board&amp;utm_campaign=nirvana-robotic-controls-engineer&amp;utm_content=hn-whoishiring-202611\" rel=\"nofollow\">https:&#x2F;&#x2F;app.niuro.io&#x2F;source&#x2F;gUNqx8Lj?ref=ps_BdIAhZPrP7yQt2P4...</a><p>For all three: hands-on work on real robot hardware (arms, grippers, mobile manipulators, actuated joints or humanoids). Mechanical and Electrical: 5+ years with a bachelor&#x27;s or 3+ with a master&#x27;s. Controls: roughly BS + 4 years, MS + 2 or a PhD. US-based; relocation to NYC within the US is supported. Visa sponsorship is not available.",
+   "created_at": "2026-11-05T20:23:44Z",
+   "created_at_i": 1793910224,
+   "objectID": "50383984",
+   "parent_id": 50338728,
+   "story_id": 50338728,
+   "story_title": "Ask HN: Who is hiring? (November 2026)",
+   "updated_at": "2026-11-09T03:04:34Z"
+  },
+  {
+   "_tags": [
+    "comment",
+    "author_christyfthk",
+    "story_50338728"
+   ],
+   "comment_text": "Flow Traders | Research Engineer | Hong Kong | Full Time | Visa | Relocation \nFlow Traders is a leading proprietary trading firm with an entrepreneurial and innovative Tech culture at the heart of its business. We are looking for Research Engineers in our Hong Kong office. Join us build and scale the research framework behind our systematic trading models. You’ll work closely with Quantitative Researchers, drive end‑to‑end ML pipelines, and shape global standards for data‑driven model development. Research Engineers have joint responsibility for conducting research and delivering models. You’ll thrive if you have: - 8+ years in ML &#x2F; Data Science &#x2F; Research Engineering (Postdoc&#x2F;Faculty can count towards this); - Strong Python and libraries such as Ray, numpy, PyTorch, and pandas; - Solid math&#x2F;stats background; - Experience with modern dev practices &amp; cloud technologies. If you&#x27;re interested, apply here: <a href=\"https:&#x2F;&#x2F;www.flowtraders.com&#x2F;careers&#x2F;job-description&#x2F;7431246\" rel=\"nofollow\">https:&#x2F;&#x2F;www.flowtraders.com&#x2F;careers&#x2F;job-description&#x2F;7431246</a><p>Flow Traders | C++ Senior Software Engineer | Hong Kong | Full Time | Visa | Relocation We are looking for a Senior C++ Software Engineer, you&#x27;ll help design and optimize next-generation market data and execution platforms powering systematic trading across hundreds of venues. The role covers high performance market data ingestion and order execution, building and optimizing trading systems. To succeed you will need to have: - 5+ years of C++ experience in HFT&#x2F; financial sector -Strong knowledge in one or more APAC markets If you are interested, apply here: <a href=\"https:&#x2F;&#x2F;www.flowtraders.com&#x2F;careers&#x2F;job-description&#x2F;8212740\" rel=\"nofollow\">https:&#x2F;&#x2F;www.flowtraders.com&#x2F;careers&#x2F;job-description&#x2F;8212740</a><p>Or if you&#x27;d like to see other roles at Flow Traders, please check our careers website: <a href=\"https:&#x2F;&#x2F;flowtraders.com&#x2F;careers&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;flowtraders.com&#x2F;careers&#x2F;</a>",
+   "created_at": "2026-11-03T03:18:22Z",
+   "created_at_i": 1793675902,
+   "objectID": "50347596",
+   "parent_id": 50338728,
+   "story_id": 50338728,
+   "story_title": "Ask HN: Who is hiring? (November 2026)",
+   "updated_at": "2026-11-09T02:29:19Z"
+  },
+  {
+   "_tags": [
+    "comment",
+    "author_beaconai",
+    "story_50338728"
+   ],
+   "comment_text": "Beacon AI | 3 days hybrid in San Carlos, CA | <a href=\"https:&#x2F;&#x2F;beaconai.co&#x2F;careers\" rel=\"nofollow\">https:&#x2F;&#x2F;beaconai.co&#x2F;careers</a>\nDue to U.S. export control regulations, we can only hire U.S. Persons (U.S. citizens, Green Card holders, lawful permanent residents, or individuals granted asylum or refugee status).<p>Beacon AI builds intelligent systems that make aviation safer and more autonomous. We’ve completed multiple DoD programs and are expanding our team with exceptional technical leaders to push the boundaries of human-machine collaboration in the cockpit. At Beacon, you will lead by example, mentoring and growing a small team of talented engineers (typically 1–2 to start) while staying hands-on in design and execution. You’ll help shape critical systems that advance aviation safety and autonomy, working alongside a team that values effort, creativity, and accountability.<p>We’re hiring Senior&#x2F;Lead Engineers with 5+ YOE who love solving complex problems. At Beacon, you’ll own your work end-to-end, from prototype to deployment, and literally see your code take flight in real world aviation environments! Roles:<p>++ iOS Engineer [Tech Stack: Swift, SwiftUI, UIKit, Mapbox]<p>++ Senior Security Engineer [FedRAMP ATO&#x2F;SSP or DoD IL4&#x2F;IL5, AWS&#x2F;GovCloud]<p>++ Infra&#x2F;Backend Engineer [Tech Stack: AWS]<p>++ WebApp&#x2F;FrontEnd Engineer [Tech Stack: Python, Typescript, React]<p>++ Lead Autonomy&#x2F;Robotics Engineer [Tech Stack: C++, Python, iOT]",
+   "created_at": "2026-11-02T22:58:54Z",
+   "created_at_i": 1793660334,
+   "objectID": "50345264",
+   "parent_id": 50338728,
+   "story_id": 50338728,
+   "story_title": "Ask HN: Who is hiring? (November 2026)",
+   "updated_at": "2026-11-03T08:13:31Z"
+  },
+  {
+   "_tags": [
+    "comment",
+    "author_spoofyroot",
+    "story_50338728"
+   ],
+   "comment_text": "Meta | Security Engineer (Senior &#x2F; Staff) | ONSITE Bellevue, Menlo Park, New York, Washington DC — Staff role also REMOTE (US) | Full-time<p>Meta&#x27;s Central Security team is hiring Security Engineers at two levels (same team, same work):<p>- Senior (IC5): <a href=\"https:&#x2F;&#x2F;www.metacareers.com&#x2F;profile&#x2F;job_details&#x2F;1407457964247914&#x2F;?env=prod\" rel=\"nofollow\">https:&#x2F;&#x2F;www.metacareers.com&#x2F;profile&#x2F;job_details&#x2F;140745796424...</a>\n- Staff (IC6): <a href=\"https:&#x2F;&#x2F;www.metacareers.com&#x2F;profile&#x2F;job_details&#x2F;5486943914865119&#x2F;?env=prod\" rel=\"nofollow\">https:&#x2F;&#x2F;www.metacareers.com&#x2F;profile&#x2F;job_details&#x2F;548694391486...</a><p><pre><code>    We find weaknesses before attackers do, then build the solutions that eliminate them. You&#x27;ll be the expert engineering and product teams turn to for AI security and native-code security guidance, providing security guidance on a constant stream of new products, leading internal security&#x2F;privacy initiatives, assessing and responding to internet threats, and conducting security assessments specializing in mobile platform and application code. The work protects 3B+ people.\n\n    Looking for: B.S.&#x2F;M.S. in CS or equivalent experience; 6+ years (IC5) &#x2F; 8+ years (IC6) in security engineering (vuln research, pentesting, or assessments of production systems); 4+ years reviewing C&#x2F;C++ with secure coding practices; programming in Python&#x2F;C++ or similar; security architecture and least-privilege experience on internet-facing products.\n\n    Nice to have: iOS&#x2F;Android security model, VM escapes, exploitation &#x2F; reverse engineering &#x2F; CTF, static analysis and fuzzing, Rust &#x2F; Obj-C &#x2F; Java&#x2F;Kotlin, community contributions (research, talks, bug bounty), and experience using AI tools to improve security workflows.</code></pre>",
+   "created_at": "2026-11-02T22:33:59Z",
+   "created_at_i": 1793658839,
+   "objectID": "50344968",
+   "parent_id": 50338728,
+   "story_id": 50338728,
+   "story_title": "Ask HN: Who is hiring? (November 2026)",
+   "updated_at": "2026-11-04T17:27:30Z"
+  },
+  {
+   "_tags": [
+    "comment",
+    "author_HenryKest",
+    "story_50338728"
+   ],
+   "comment_text": "Vivral (Nair Engineering) | ML, Systems (GPU), Hardware, and Embedded Engineers | Gainesville, FL (UF students) | Part-time | Equity<p>Vivral is an AI health assistant that helps people understand their health. We run frontier-grade medical AI on ordinary computers instead of the cloud, so health support can reach remote, underserved communities. Already tested by researchers at UF, Michigan, and Princeton.<p>We&#x27;re hiring part-time student engineers (sophomores through PhD): Machine Learning (PyTorch, LLMs), Systems (CUDA&#x2F;Triton, making large models run fast on everyday hardware), Hardware (FPGA, digital design), and Embedded (C&#x2F;C++ firmware). Roles are built around class schedules and come with equity that vests over time.<p>Apply (10 minutes): <a href=\"https:&#x2F;&#x2F;forms.gle&#x2F;PrewX9oGEj7fCMR46\" rel=\"nofollow\">https:&#x2F;&#x2F;forms.gle&#x2F;PrewX9oGEj7fCMR46</a>\nMore: nairengineering.com",
+   "created_at": "2026-11-02T21:56:10Z",
+   "created_at_i": 1793656570,
+   "objectID": "50344410",
+   "parent_id": 50338728,
+   "story_id": 50338728,
+   "story_title": "Ask HN: Who is hiring? (November 2026)",
+   "updated_at": "2026-11-03T02:12:14Z"
+  },
+  {
+   "_tags": [
+    "comment",
+    "author_bill_duckduckgo",
+    "story_50338728"
+   ],
+   "comment_text": "DuckDuckGo - we are looking for candidates that are excited to join us on a mission to raise the standard of trust online. All of our roles are fully-remote, except where specific locations are noted.<p>Senior Web Security Engineer, Browser Platform -\n<a href=\"https:&#x2F;&#x2F;jobs.ashbyhq.com&#x2F;duck-duck-go&#x2F;a447e823-fd8f-438f-909\" rel=\"nofollow\">https:&#x2F;&#x2F;jobs.ashbyhq.com&#x2F;duck-duck-go&#x2F;a447e823-fd8f-438f-909</a>...<p>Senior Backend Engineer -  <a href=\"https:&#x2F;&#x2F;jobs.ashbyhq.com&#x2F;duck-duck-go&#x2F;53022b02-da3d-4fda-8273-c897d27ed50d?utm_source=1DKZJgG9d9\" rel=\"nofollow\">https:&#x2F;&#x2F;jobs.ashbyhq.com&#x2F;duck-duck-go&#x2F;53022b02-da3d-4fda-827...</a><p>Staff Data Scientist -  <a href=\"https:&#x2F;&#x2F;jobs.ashbyhq.com&#x2F;duck-duck-go&#x2F;9c381171-f346-4d7a-876a-509fe046760f?utm_source=1DKZJgG9d9\" rel=\"nofollow\">https:&#x2F;&#x2F;jobs.ashbyhq.com&#x2F;duck-duck-go&#x2F;9c381171-f346-4d7a-876...</a><p>Senior Data Scientist - <a href=\"https:&#x2F;&#x2F;jobs.ashbyhq.com&#x2F;duck-duck-go&#x2F;a447e823-fd8f-438f-909e-db1f6ced8c97?utm_source=1DKZJgG9d9\" rel=\"nofollow\">https:&#x2F;&#x2F;jobs.ashbyhq.com&#x2F;duck-duck-go&#x2F;a447e823-fd8f-438f-909...</a><p>Director, Paid Marketing (Subscriptions) - (Remote within USA) -  <a href=\"https:&#x2F;&#x2F;jobs.ashbyhq.com&#x2F;duck-duck-go&#x2F;f8570953-8ea3-4955-bfbf-dd67a56df5f5?utm_source=1DKZJgG9d9\" rel=\"nofollow\">https:&#x2F;&#x2F;jobs.ashbyhq.com&#x2F;duck-duck-go&#x2F;f8570953-8ea3-4955-bfb...</a><p>Senior Product Partnerships Manager (Remote within USA or Canada) -  <a href=\"https:&#x2F;&#x2F;jobs.ashbyhq.com&#x2F;duck-duck-go&#x2F;dc1027ae-8f6a-44eb-b116-f945d2f95fad?utm_source=1DKZJgG9d9\" rel=\"nofollow\">https:&#x2F;&#x2F;jobs.ashbyhq.com&#x2F;duck-duck-go&#x2F;dc1027ae-8f6a-44eb-b11...</a><p>Senior C++ Engineer - <a href=\"https:&#x2F;&#x2F;jobs.ashbyhq.com&#x2F;duck-duck-go&#x2F;af93b075-d60a-4686-abeb-5949206d2f53?utm_source=1DKZJgG9d9\" rel=\"nofollow\">https:&#x2F;&#x2F;jobs.ashbyhq.com&#x2F;duck-duck-go&#x2F;af93b075-d60a-4686-abe...</a><p>Senior Privacy Engineer - <a href=\"https:&#x2F;&#x2F;jobs.ashbyhq.com&#x2F;duck-duck-go&#x2F;80797cf4-64b2-4e94-9d87-6f2ecc45c862?utm_source=1DKZJgG9d9\" rel=\"nofollow\">https:&#x2F;&#x2F;jobs.ashbyhq.com&#x2F;duck-duck-go&#x2F;80797cf4-64b2-4e94-9d8...</a><p>Senior Web Compatibility Engineer - <a href=\"https:&#x2F;&#x2F;jobs.ashbyhq.com&#x2F;duck-duck-go&#x2F;d02d7598-141b-4a84-bdf6-46677da89b08?utm_source=1DKZJgG9d9\" rel=\"nofollow\">https:&#x2F;&#x2F;jobs.ashbyhq.com&#x2F;duck-duck-go&#x2F;d02d7598-141b-4a84-bdf...</a><p>and MORE: <a href=\"https:&#x2F;&#x2F;duckduckgo.com&#x2F;hiring\" rel=\"nofollow\">https:&#x2F;&#x2F;duckduckgo.com&#x2F;hiring</a>",
+   "created_at": "2026-11-02T18:55:20Z",
+   "created_at_i": 1793645720,
+   "objectID": "50341745",
+   "parent_id": 50338728,
+   "story_id": 50338728,
+   "story_title": "Ask HN: Who is hiring? (November 2026)",
+   "updated_at": "2026-11-08T01:46:16Z"
+  },
+  {
+   "_tags": [
+    "comment",
+    "author_MrTravisB",
+    "story_50338728"
+   ],
+   "comment_text": "Mozilla | Sr. Staff Software Engineer, Browser (New Products) | REMOTE (US or Canada) | Full-time<p>Mozilla&#x27;s New Products group is a small team building new things on top of browser engine technology. We&#x27;re hiring a hands-on, senior IC to run experiments inside browser engine internals and find out which ideas actually hold up.<p>What you&#x27;d do: design and build experiments in engine subsystems (DOM, layout, accessibility, JS runtime, networking), prototype features that let programs interact with web pages reliably, and measure everything. That means repeatable benchmarks, profiling overhead, and writing up the experiments that didn&#x27;t work too. You&#x27;ll use AI tools heavily, but you&#x27;ll verify what they produce by testing and measuring it.<p>You likely have: deep experience in at least one browser subsystem, strong C++ or Rust, comfort in a very large codebase, a solid grasp of how the web platform behaves, and a real interest in AI agents and their tooling. Contributions to Gecko, Servo, Blink or WebKit are a big plus.<p>US: <a href=\"https:&#x2F;&#x2F;job-boards.greenhouse.io&#x2F;mozilla&#x2F;jobs&#x2F;8265116\" rel=\"nofollow\">https:&#x2F;&#x2F;job-boards.greenhouse.io&#x2F;mozilla&#x2F;jobs&#x2F;8265116</a><p>Canada: <a href=\"https:&#x2F;&#x2F;job-boards.greenhouse.io&#x2F;mozilla&#x2F;jobs&#x2F;8265117\" rel=\"nofollow\">https:&#x2F;&#x2F;job-boards.greenhouse.io&#x2F;mozilla&#x2F;jobs&#x2F;8265117</a>",
+   "created_at": "2026-11-02T18:01:01Z",
+   "created_at_i": 1793642461,
+   "objectID": "50340840",
+   "parent_id": 50338728,
+   "story_id": 50338728,
+   "story_title": "Ask HN: Who is hiring? (November 2026)",
+   "updated_at": "2026-11-04T02:36:36Z"
+  },
+  {
+   "_tags": [
+    "comment",
+    "author_cpeterson42",
+    "story_50338728"
+   ],
+   "comment_text": "Thunder Compute (YC S24) | C++ Systems Engineer | San Francisco (Onsite) | Full-time | Visa sponsorship | <a href=\"https:&#x2F;&#x2F;www.thundercompute.com\">https:&#x2F;&#x2F;www.thundercompute.com</a><p>We run a GPU cloud on systems software we built from scratch in C++. We&#x27;re hiring for our systems engineering team; designing the distributed system behind what is essentially a hypervisor for GPUs.<p>You&#x27;d report to Brian, our CTO (ex-Citadel Securities quant dev). Team is from Citadel Securities, Aquatic, Old Mission and AWS. Series A, $17.5M+ from Matrix and YC.<p>Comp: $250–325K base, 0.1–0.3% equity, highly competitive profit-sharing bonus pool. Currently there are $3.3M in bonuses entering this pool tied to gross-profit milestones.<p>Apply: <a href=\"https:&#x2F;&#x2F;jobs.ashbyhq.com&#x2F;thundercompute&#x2F;2efae53b-817c-43e7-9da3-72694813f608\" rel=\"nofollow\">https:&#x2F;&#x2F;jobs.ashbyhq.com&#x2F;thundercompute&#x2F;2efae53b-817c-43e7-9...</a><p>If you&#x27;re cracked at systems software and want to do something more meaningful than creating liquidity, reach out.<p>More at <a href=\"https:&#x2F;&#x2F;www.thundercompute.com&#x2F;careers\">https:&#x2F;&#x2F;www.thundercompute.com&#x2F;careers</a>. Mention HN when you apply.",
+   "created_at": "2026-11-02T17:37:25Z",
+   "created_at_i": 1793641045,
+   "objectID": "50340438",
+   "parent_id": 50338728,
+   "story_id": 50338728,
+   "story_title": "Ask HN: Who is hiring? (November 2026)",
+   "updated_at": "2026-11-13T16:54:23Z"
+  },
+  {
+   "_tags": [
+    "comment",
+    "author_thebasic27",
+    "story_50338728"
+   ],
+   "comment_text": "CNH | AI Engineer Intern | Tempe, AZ, USA | ON-SITE | Summer internship (40 hours&#x2F;week, May–August)<p>Work on autonomy and precision agriculture, applying AI, machine learning, and computer vision to real-world agricultural problems. You&#x27;ll help develop, evaluate, and deploy models alongside our engineering team.<p>Stack: C++, Python, PyTorch&#x2F;TensorFlow, ONNX, TensorRT, Git.<p>We&#x27;re looking for strong programming skills and a solid understanding of ML fundamentals. You must be a current college student actively pursuing a degree. Visa sponsorship is not available.<p>Apply: <a href=\"https:&#x2F;&#x2F;join.cnh.com&#x2F;job&#x2F;AI-Engineer-Intern&#x2F;5686-en_US\" rel=\"nofollow\">https:&#x2F;&#x2F;join.cnh.com&#x2F;job&#x2F;AI-Engineer-Intern&#x2F;5686-en_US</a>",
+   "created_at": "2026-11-02T16:48:54Z",
+   "created_at_i": 1793638134,
+   "objectID": "50339641",
+   "parent_id": 50338728,
+   "story_id": 50338728,
+   "story_title": "Ask HN: Who is hiring? (November 2026)",
+   "updated_at": "2026-11-03T02:13:44Z"
+  },
+  {
+   "_tags": [
+    "comment",
+    "author_graham_kha",
+    "story_50338728"
+   ],
+   "comment_text": "Kraus Hamdani Aerospace | Software Engineer | REMOTE (US) or ONSITE in Reno, NV<p>We build long-endurance autonomous aircraft and the software used to operate them.<p>Looking for a strong generalist software engineer. Most application work is TypeScript&#x2F;web, with C&#x2F;C++ and Rust elsewhere in the stack. You’ll work across frontend, backend, cloud, DevOps, and directly with flight test and hardware teams.<p>We care a lot about code quality, maintainability, and engineers who can take ambiguous problems and independently ship solid software. No sloppers.<p>U.S. defense&#x2F;security eligibility required.<p>Apply: software@khaero.com",
+   "created_at": "2026-11-02T16:30:26Z",
+   "created_at_i": 1793637026,
+   "objectID": "50339308",
+   "parent_id": 50338728,
+   "story_id": 50338728,
+   "story_title": "Ask HN: Who is hiring? (November 2026)",
+   "updated_at": "2026-11-05T01:20:04Z"
+  }
+ ],
+ "nbHits": 12
+}

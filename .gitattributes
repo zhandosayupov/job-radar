@@ -1,0 +1,3 @@
+* text=auto eol=lf
+*.rss -text
+*.json text eol=lf

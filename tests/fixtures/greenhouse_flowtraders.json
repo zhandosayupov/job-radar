@@ -1,0 +1,290 @@
+{
+ "jobs": [
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/flowtraders/jobs/6993714",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 3173982,
+   "location": {
+    "name": "Hong Kong"
+   },
+   "id": 6993714,
+   "updated_at": "2026-11-06T00:27:40-05:00",
+   "requisition_id": "1484",
+   "title": "Senior Software Engineer, C++",
+   "company_name": "Flow Traders",
+   "first_published": "2025-06-26T00:56:39-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;Flow Traders is looking for Senior C++ Software Engineers to join our growing team in Hong Kong. Software Engineers at Flow Traders provide us with our competitive edge, equipping Researchers and Traders with the information and capabilities that they need to make sound business decisions. C++ plays a critical role in our event-driven trading systems, which are designed to reliably handle vast amounts of data at ultra-low latencies.&lt;/p&gt;\n&lt;p&gt;As a C++ Engineer, you will build systems used to analyze and trade tens of thousands of products across hundreds of global trading venues every day. Working closely with Technologists, Quantitative Researchers, and Traders, you’ll guide the development of our in-house trading technology and optimize it to achieve market-leading performance and reliability. Our proprietary trading platform includes everything from venue connectivity (feed handlers and ordering gateways) to trading engines to shared platforms that enable us to work quickly and efficiently - we are proud of our open and collaborative culture, so you’ll have plenty of opportunity to find what fits you best.&lt;/p&gt;\n&lt;p&gt;&lt;br&gt;Teamwork is one of our most important firm values, and end users are never more than a short walk away, guaranteeing short feedback loops and immediate insight into the value that your code provides. To foster collaboration and innovation, we maintain shared libraries, encourage code re-use, and continuously evolve our views on application architecture.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;h4&gt;What you will do:&lt;/h4&gt;\n&lt;p&gt;Main technical activities include:&lt;/p&gt;\n&lt;p&gt;For all C++ openings:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Lead the development and global rollout of our Core platform used in multiple business/focus groups (Market data, Quantitative research, Pricing, Strategies)&lt;/li&gt;\n&lt;li&gt;Be involved in the development process, which will be a fast-paced iterative process where you deploy your deliverables and validate them yourself and/or together with traders or quants&lt;/li&gt;\n&lt;li&gt;Develop tools/frameworks to deliver capabilities for tuning/develop data-driven systematic pricing and trading strategies&lt;/li&gt;\n&lt;li&gt;Work together with focus group engineers, Quants and Technical traders to refine requirements, collect feedback, and iterate on design and implementation of platform requirements&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;Exchange Connectivity:&lt;/span&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Write software that communicates with exchanges through their APIs, receiving market data and sending orders over the network in different protocols, such as FIX, Websocket or HTTP requests&lt;/li&gt;\n&lt;li&gt;Ensure quality of software based on a set of testing suites, which you are expected to use, maintain and extend&lt;/li&gt;\n&lt;li&gt;Optimize exchange communication through kernel bypass, optimizing TLS or the connection handling to an exchange&lt;/li&gt;\n&lt;li&gt;Research exchange behavior in detail to align our behavior to that of an exchange&lt;/li&gt;\n&lt;li&gt;Implement these solutions using the provided exchange SDKs in different languages such as C++, Rust, Python, Typescript&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;Trading Strategies:&lt;/span&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Implement trading algorithms based on requirements provided by traders and quants&lt;/li&gt;\n&lt;li&gt;Acquire and develop the necessary trading knowledge to successfully translate the requirements into actual software implementation&lt;/li&gt;\n&lt;li&gt;Continuously improve the stability, reliability, and performance of the trading engine&lt;/li&gt;\n&lt;li&gt;Enhance monitoring and observability in collaboration with the Trading Operations team&lt;/li&gt;\n&lt;li&gt;Investigate and resolve production issues such as crashes, unexpected business logic behavior, and performance bottlenecks&lt;/li&gt;\n&lt;li&gt;Prepare for releases and deployments of new trading engine versions&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h4&gt;&amp;nbsp;&lt;/h4&gt;\n&lt;h4&gt;What you need to succeed&lt;/h4&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;BSc, MSc, or PhD in Computer Science, Mathematics or equivalent&lt;/li&gt;\n&lt;li&gt;5+ years post-graduation professional C++ software development experience in the trading/ financial services industry&lt;/li&gt;\n&lt;li&gt;&amp;nbsp;Ability to write clean, reliable, and highly scalable code&lt;/li&gt;\n&lt;li&gt;Good knowledge of algorithms and data structures&lt;/li&gt;\n&lt;li&gt;Experience in parallel, asynchronous, and multithreaded programming&lt;/li&gt;\n&lt;li&gt;&amp;nbsp;Interest in achieving maximum performance from available hardware and software&lt;/li&gt;\n&lt;li&gt;&amp;nbsp;Ability to communicate with technical and non-technical business colleagues&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;Flow Traders does not accept unsolicited resumes from any professional staffing or search firms. All resumes, and any other information identifying potential candidates, submitted to any employee at Flow Traders via email, the Internet or directly without a valid and signed search agreement will be deemed free to contact by Flow Traders without any restrictions and no placement fee of any kind will be paid in the event the candidate is hired by Flow Traders&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
+   "departments": [
+    {
+     "id": 133291,
+     "name": "Product Development",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "offices": [
+    {
+     "id": 26355,
+     "name": "Hong Kong office",
+     "location": "Hong Kong",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": "<p>We use Greenhouse’s AI-powered Talent Matching tool to help compare applications against the requirements of the role. This technology is used solely to support the recruitment process by highlighting potentially relevant skills and experience.</p><p>The tool does not make hiring or screening decisions on behalf of Flow Traders. All applications and CVs are reviewed by members of our recruitment team, and all hiring decisions are made by humans.</p>",
+   "include_ai_disclaimer": true,
+   "ai_opt_out_request_url": "http://app.greenhouse.io/ai_opt_out_request/job_post/6993714/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/flowtraders/jobs/7064123",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 3190964,
+   "location": {
+    "name": "Hong Kong"
+   },
+   "id": 7064123,
+   "updated_at": "2026-10-07T22:53:37-04:00",
+   "requisition_id": "1492",
+   "title": "Python Engineer, Trading Automation ",
+   "company_name": "Flow Traders",
+   "first_published": "2025-07-17T21:58:55-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;Flow Traders is looking for a Python Engineer to join our growing Trading Automation team in Hong Kong. This is a unique opportunity to join a leading proprietary trading firm with an entrepreneurial and innovative culture at the heart of its business. We value quick-witted, creative minds and challenge them to make full use of their capacities.&lt;/p&gt;\n&lt;p&gt;&lt;br&gt;As a member of Trading Automation team, you will work within our technology landscape on creating direct impact for our core business through the development of applications that enhances data frameworks, streamline workflows, facilitate efficiency, and unlock growth prospects. In this role, you will be responsible for developing applications, services, and pipelines that deliver value through automation. Your actions will directly contribute to the performance of the company. You will also get the opportunity to interact and work closely with the global Trading Automation team and different departments to gain a well-rounded knowledge of start-to-end trading landscape, how they function and integrate within our ecosystem.&lt;/p&gt;\n&lt;h4&gt;&amp;nbsp;&lt;/h4&gt;\n&lt;p&gt;&lt;strong&gt;What You Will Do&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Collaborate with various local and global stakeholders to deliver solutions for trading and other business units&lt;/li&gt;\n&lt;li&gt;Deliver &amp;amp; own the full lifecycle for real-time software, API services and ETL pipelines&lt;/li&gt;\n&lt;li&gt;Seek out and identify inefficiencies and implement automation solutions&lt;/li&gt;\n&lt;li&gt;Work on both global and local business priorities&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;What You Need to Succeed&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;University degree in Computer Science, Mathematics or other quantitative fields&lt;/li&gt;\n&lt;li&gt;Excellent stakeholder management and communication skills&lt;/li&gt;\n&lt;li&gt;5+ years working experience in software development with front-office &amp;amp; financial markets experience preferred&lt;/li&gt;\n&lt;li&gt;Strong software development skills in Python, Golang&lt;/li&gt;\n&lt;li&gt;Strong knowledge of Unix/Linux operating systems&#39;&lt;/li&gt;\n&lt;li&gt;Proficiency in Docker, Kubernetes, Kafka (knowledge of distributed systems is advantageous)&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;Flow Traders does not accept unsolicited resumes from any professional staffing or search firms. All resumes, and any other information identifying potential candidates, submitted to any employee at Flow Traders via-email, the Internet or directly without a valid and signed search agreement will be deemed free to contact by Flow Traders without any restrictions and no placement fee of any kind will be paid in the event the candidate is hired by Flow Traders.&lt;/em&gt;&lt;/p&gt;",
+   "departments": [
+    {
+     "id": 133291,
+     "name": "Product Development",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "offices": [
+    {
+     "id": 26355,
+     "name": "Hong Kong office",
+     "location": "Hong Kong",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": "<p>We use Greenhouse’s AI-powered Talent Matching tool to help compare applications against the requirements of the role. This technology is used solely to support the recruitment process by highlighting potentially relevant skills and experience.</p><p>The tool does not make hiring or screening decisions on behalf of Flow Traders. All applications and CVs are reviewed by members of our recruitment team, and all hiring decisions are made by humans.</p>",
+   "include_ai_disclaimer": true,
+   "ai_opt_out_request_url": "http://app.greenhouse.io/ai_opt_out_request/job_post/7064123/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/flowtraders/jobs/7431246",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 3306603,
+   "location": {
+    "name": "Hong Kong"
+   },
+   "id": 7431246,
+   "updated_at": "2026-11-08T21:08:54-05:00",
+   "requisition_id": "1560",
+   "title": "Senior Research Engineer",
+   "company_name": "Flow Traders",
+   "first_published": "2025-11-30T21:30:37-05:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;Flow Traders is looking for a Senior Research Engineer to join our&lt;em&gt; &lt;/em&gt;Hong Kong&amp;nbsp;office. This is a unique opportunity to join a leading proprietary trading firm with an entrepreneurial and innovative culture at the heart of its business. We value quick-witted, creative minds and challenge them to make full use of their capacities.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;As a Senior Research Engineer, you will be responsible for helping to lead the development of our trading model research framework and using it to conduct research to develop models for trading in production. You&#39;ll expand the framework to become global standard way of training, consuming, combining, and transforming any data source in a data-driven systematic way. You will then partner with Quantitative Researchers to build the trading models themselves.&lt;/p&gt;\n&lt;h4&gt;What You Will Do&lt;/h4&gt;\n&lt;ul&gt;\n&lt;li data-uuid=&quot;6f4d034f-4267-40cb-b19e-b25fec7777e3&quot;&gt;Help to lead the development and global rollout of our research framework for defining and training models through various optimization procedures (supervised learning, backtesting etc.), as well as its integration with our platform for deploying and running those models in production&lt;/li&gt;\n&lt;li data-uuid=&quot;8ff379a5-033c-47e2-b703-c2f31929aba1&quot;&gt;Partner with Quantitative Researchers to conduct research: test hypotheses and tune/develop data-driven systematic trading strategies and alpha signals&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h4 id=&quot;RERoleJD-Whatyouneedtosucceed&quot;&gt;What You Need to Succeed&lt;/h4&gt;\n&lt;ul&gt;\n&lt;li data-uuid=&quot;fcb0a79a-c754-4bc0-a3d6-d76e57484671&quot;&gt;Advanced degree (Master&#39;s or PhD) in Machine Learning, Statistics, Physics, Computer Science or similar&lt;/li&gt;\n&lt;li data-uuid=&quot;4ac39e06-4ad8-422f-9cfa-0f4e7d10c042&quot;&gt;5+ years of hands-on experience MLOps, Research Engineering, or ML Research&lt;/li&gt;\n&lt;li data-uuid=&quot;15a0ded7-6f3b-4b49-9080-f14966fbec16&quot;&gt;A strong background in mathematics and statistics&lt;/li&gt;\n&lt;li data-uuid=&quot;4e3bc304-baa8-43c9-bae7-2cd549b2339c&quot;&gt;Strong proficiency in programming languages such as Python, with experience in libraries like numpy, pytorch, polars, pandas, and ray.&lt;/li&gt;\n&lt;li data-uuid=&quot;5e1dbf95-d49b-43c5-89c4-6f87b9811f26&quot;&gt;Demonstrated experience in designing and implementing end-to-end machine learning pipelines, including data preprocessing, model training, deployment, and monitoring&lt;/li&gt;\n&lt;li data-uuid=&quot;bcc2bb95-9976-48cd-86a2-4f1142e4db1f&quot;&gt;Understanding of and experience with modern software development practices and tools (e.g. Agile, version control, automated testing, CI/CD, observability)&lt;/li&gt;\n&lt;li data-uuid=&quot;773ae114-f79f-4a9c-9650-6ded1dcf945e&quot;&gt;Understanding of cloud platforms (e. g., AWS, Azure, GCP) and containerization technologies (e. g., Docker, Kubernetes)&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;em&gt;Flow Traders does not accept unsolicited resumes from any professional staffing or search firms. All resumes, and any other information identifying potential candidates, submitted to any employee at Flow Traders via-email, the Internet or directly without a valid and signed search agreement will be deemed free to contact by Flow Traders without any restrictions and no placement fee of any kind will be paid in the event the candidate is hired by Flow Traders.&lt;/em&gt;&lt;/p&gt;",
+   "departments": [
+    {
+     "id": 74810,
+     "name": "Events",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "offices": [
+    {
+     "id": 26355,
+     "name": "Hong Kong office",
+     "location": "Hong Kong",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": "<p>We use Greenhouse’s AI-powered Talent Matching tool to help compare applications against the requirements of the role. This technology is used solely to support the recruitment process by highlighting potentially relevant skills and experience.</p><p>The tool does not make hiring or screening decisions on behalf of Flow Traders. All applications and CVs are reviewed by members of our recruitment team, and all hiring decisions are made by humans.</p>",
+   "include_ai_disclaimer": true,
+   "ai_opt_out_request_url": "http://app.greenhouse.io/ai_opt_out_request/job_post/7431246/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/flowtraders/jobs/7992594",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 3467203,
+   "location": {
+    "name": "Amsterdam"
+   },
+   "id": 7992594,
+   "updated_at": "2026-11-04T08:29:48-05:00",
+   "requisition_id": "1647",
+   "title": "Senior Software Engineer, C++ , Core Platform",
+   "company_name": "Flow Traders",
+   "first_published": "2026-06-12T07:51:25-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;Flow Traders is looking for a Senior C++ Software Engineer to lead the next-generation architecture of the market data and execution platforms that power our fully systematic trading. We don&#39;t treat market data as plumbing - for us it&#39;s a source of alpha, where feed handling, order book construction, and a deep understanding of exchange microstructure are themselves a competitive edge. We&#39;re looking for a senior individual contributor who has lived this philosophy in a proprietary or systematic trading environment and can squeeze every nanosecond out of the path from wire to strategy.&lt;/p&gt;\n&lt;p&gt;As a senior individual contributor, you&#39;ll help set the technical direction for the Core Platform that underpins quantitative research, pricing, strategy development, and execution across hundreds of venues - and drive its global rollout across our Market Data, Quant Research, Pricing, and Strategies groups. You&#39;ll work in a tight, iterative loop with quants and technical traders, applying deep expertise in modern C++, OS internals, CPU and memory architecture, lock-free concurrency, and low-latency networking to push our systems toward state-of-the-art performance, robustness, and observability.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;h4&gt;What you will do:&lt;/h4&gt;\n&lt;ul&gt;\n&lt;li&gt;Lead the development and global rollout of our Core market data platform used across multiple focus areas (Market data, Research engineering, Pricing, Strategies).&lt;/li&gt;\n&lt;li&gt;Design and implement high‑performance components for market data ingestion, normalization, and distribution, as well as its usage for order execution and strategy infrastructure.&lt;/li&gt;\n&lt;li&gt;Develop tools and frameworks that enable quants and technical traders to build, tune, and deploy data‑driven systematic pricing and trading strategies.&lt;/li&gt;\n&lt;li&gt;Own the full lifecycle of your components in a fast‑paced, iterative environment: deploy, monitor, profile, and optimize your code in production.&lt;/li&gt;\n&lt;li&gt;Work closely with focus group engineers, quants, and technical traders to refine requirements, collect feedback, and iterate on the platform&#39;s design and implementation.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h4&gt;&amp;nbsp;&lt;/h4&gt;\n&lt;h4&gt;What you need to succeed:&lt;/h4&gt;\n&lt;ul&gt;\n&lt;li&gt;BSc, MSc, or PhD in Computer Science, Mathematics, or a related field.&lt;/li&gt;\n&lt;li&gt;7+ years of post‑graduation professional C++ software development experience.&lt;/li&gt;\n&lt;li&gt;Experience building low‑latency market data ingestion, order execution, and algorithmic trading systems (proprietary trading industry preferred).&lt;/li&gt;\n&lt;li&gt;Strong knowledge of algorithms and data structures.&lt;/li&gt;\n&lt;li&gt;Experience in parallel, asynchronous, and multithreaded programming.&lt;/li&gt;\n&lt;li&gt;Demonstrated ability to write clean, reliable, and highly scalable C++ code.&lt;/li&gt;\n&lt;li&gt;Interest in extracting maximum performance from available hardware and software (CPU caches, memory layout, networking, etc.).&lt;/li&gt;\n&lt;li&gt;Ability to communicate effectively with both technical and non‑technical colleagues.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;br&gt;This role may require participation in an on-call rotation outside normal business hours and on applicable National Holidays. Employees on call must remain available to respond to urgent matters necessary to ensure business continuity or 24/7 coverage of trading activities. On-call duties, scheduling, and compensation are governed by the applicable company policy, arrangements, and Dutch labour-law requirements.&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;Flow Traders does not accept unsolicited resumes from any professional staffing or search firms. All resumes, and any other information identifying potential candidates, submitted to any employee at Flow Traders via email, the Internet or directly without a valid and signed search agreement will be deemed free to contact by Flow Traders without any restrictions and no placement fee of any kind will be paid in the event the candidate is hired by Flow Traders&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
+   "departments": [
+    {
+     "id": 133291,
+     "name": "Product Development",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "offices": [
+    {
+     "id": 26356,
+     "name": "Amsterdam office",
+     "location": "Amsterdam, Noord-Holland, Netherlands",
+     "child_ids": [],
+     "parent_id": null
+    },
+    {
+     "id": 60494,
+     "name": "London Office ",
+     "location": "London, England, United Kingdom",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": "<p>We use Greenhouse’s AI-powered Talent Matching tool to help compare applications against the requirements of the role. This technology is used solely to support the recruitment process by highlighting potentially relevant skills and experience.</p><p>The tool does not make hiring or screening decisions on behalf of Flow Traders. All applications and CVs are reviewed by members of our recruitment team, and all hiring decisions are made by humans.</p>",
+   "include_ai_disclaimer": true,
+   "ai_opt_out_request_url": "http://app.greenhouse.io/ai_opt_out_request/job_post/7992594/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/flowtraders/jobs/8352122",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 3609969,
+   "location": {
+    "name": "Amsterdam"
+   },
+   "id": 8352122,
+   "updated_at": "2026-11-19T03:09:56-05:00",
+   "requisition_id": "1727",
+   "title": "Senior HR Business Partner ",
+   "company_name": "Flow Traders",
+   "first_published": "2026-11-04T07:27:20-05:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;Flow Traders is looking for an experienced HR Business Partner to join our EMEA HR team based in our Amsterdam office. The role will focus on coaching and guiding managers on all employee-related topics, as well as playing a key role in the design and execution of Flow Traders&#39; people strategy. You will act as an enabler of success across the organization. You will work closely with regional leadership and the Global Head of HR &amp;amp; Recruitment to uphold our company culture and cultivate a strong, symbiotic relationship between HR and the business.&lt;br&gt;&lt;br&gt;The Amsterdam HR team currently comprises of 9 colleagues: 3 HR Business Partners, 1 Lead HR Generalist, 2 HR Generalists, 1 Payroll Specialist, 1 Reward and Policies Specialist, all of whom report into the Global Head of HR &amp;amp; Recruitment (who is based in Amsterdam). We also have local HR colleagues in our international offices in New York and Hong Kong, As Flow Traders has differentiated themselves from competitors through a very employee-centric company culture, the HR department has a crucial role in maintaining this aspect and taking it to the next level. Besides running the operational day-to-day part of HR the team focuses on various projects concerning process optimization, employee satisfaction and retention.&lt;br&gt;&lt;br&gt;&lt;strong&gt;What you will do&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Actively support, coach and challenge our Senior leadership as a trusted, strategic sparring partner in the day-to-day business and workforce/capacity planning&lt;/li&gt;\n&lt;li&gt;Align HR strategies and initiatives with business objectives and organizational priorities&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Lead and support organizational design, change and transformation initiatives.&lt;/li&gt;\n&lt;li&gt;Coach and guide managers on all employee-related topics such as; talent development, performance management and feedback conversations, team dynamics, engagement and absence management, sick leave, HR data reporting, etc.&lt;/li&gt;\n&lt;li&gt;Develop strategies to attract, retain and develop high performing talent.&lt;/li&gt;\n&lt;li&gt;Promote an inclusive and high-performance work environment&lt;/li&gt;\n&lt;li&gt;Analyze HR metrics and people data to identify trends and risks with focus on continues improvements&lt;/li&gt;\n&lt;li&gt;Manage all (complex)employee relations scenarios: independently address inquiries, develop solutions, provide guidance to Management and/or employees, and ensure timely high-quality resolutions&lt;/li&gt;\n&lt;li&gt;Drive the successful execution of HR Projects and cross -functional initiatives within established timelines, ensuring consistent application across the organization, and identifying areas of improvement&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;What you need to succeed&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;University Degree in HRM, Business Administration or similar&lt;/li&gt;\n&lt;li&gt;Minimum 5-8 years of working experience as HRBP (ideally in an international &amp;nbsp;fast pace&amp;nbsp; environment)&lt;/li&gt;\n&lt;li&gt;Fluent written and spoken English communication skills&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;In-depth knowledge of, and experience with, Dutch Labour Law and legal requirements&amp;nbsp; &amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Comfortable le working with digital tools and HR systems, with the ability to learn and adapt to new technologies, including AI.&lt;/li&gt;\n&lt;li&gt;A passion for engaging and empowering employees at all levels&lt;/li&gt;\n&lt;li&gt;A strong sense of urgency and the ability to organize and prioritize multiple competing tasks, with a focus on results and a pleasant employee experience&lt;/li&gt;\n&lt;li&gt;The ability to challenge the status quo to drive the business forward&lt;/li&gt;\n&lt;li&gt;The ability to understand and translate function strategy and objectives into talent and culture actions and develop clear steps for the Management to execute upon&lt;/li&gt;\n&lt;li&gt;Strong analytical and numeric skills; able to synthesize data to net out the key points&lt;/li&gt;\n&lt;li&gt;Preferable available for 5 days per week&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;h4&gt;What we offer&lt;/h4&gt;\n&lt;p&gt;At Flow Traders, we create the conditions for hard‑working, high‑performing people to do their best work. From a thorough onboarding and ongoing access to Flow Academy, to latest technology and a collaborative, non‑hierarchical culture, we give you the tools, ownership, and support to move fast and drive outcomes. We keep a close‑knit, small‑company feel while offering competitive salary, annual discretionary profit share, and comprehensive benefits,&amp;nbsp;so talent can grow here, and stay here.&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;See our benefits below:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Flow Academy and opportunities to attend domain-related conferences&lt;/li&gt;\n&lt;li&gt;Daily catered lunch, great coffee, and a fully stocked kitchen and snack bar&lt;/li&gt;\n&lt;li&gt;In-house Bar and Lounge with arcade, table tennis, billiards, and game consoles&lt;/li&gt;\n&lt;li&gt;Company boat&lt;/li&gt;\n&lt;li&gt;In-house gym and sessions with our nutritionist or personal trainer&lt;/li&gt;\n&lt;li&gt;Bi-weekly massages&lt;/li&gt;\n&lt;li&gt;Annual company trip and a variety of events throughout the year, such as the New Years Event&lt;/li&gt;\n&lt;li&gt;Global rotations across our offices worldwide&lt;/li&gt;\n&lt;li&gt;and more&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;Flow Traders does not accept unsolicited resumes from any professional staffing or search firms. All resumes, and any other information identifying potential candidates, submitted to any employee at Flow Traders via-email, the Internet or directly without a valid and signed search agreement will be deemed free to contact by Flow Traders without any restriction",
+   "departments": [
+    {
+     "id": 133283,
+     "name": "HR & Recruitment",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "offices": [
+    {
+     "id": 26356,
+     "name": "Amsterdam office",
+     "location": "Amsterdam, Noord-Holland, Netherlands",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": "<p>We use Greenhouse’s AI-powered Talent Matching tool to help compare applications against the requirements of the role. This technology is used solely to support the recruitment process by highlighting potentially relevant skills and experience.</p><p>The tool does not make hiring or screening decisions on behalf of Flow Traders. All applications and CVs are reviewed by members of our recruitment team, and all hiring decisions are made by humans.</p>",
+   "include_ai_disclaimer": true,
+   "ai_opt_out_request_url": "http://app.greenhouse.io/ai_opt_out_request/job_post/8352122/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/flowtraders/jobs/8352263",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 3591103,
+   "location": {
+    "name": "Amsterdam"
+   },
+   "id": 8352263,
+   "updated_at": "2026-11-04T05:39:30-05:00",
+   "requisition_id": "1720",
+   "title": "Executive Assistant to the Chief Executive Officer",
+   "company_name": "Flow Traders",
+   "first_published": "2026-11-04T05:39:30-05:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;Flow Traders is seeking a highly capable, experienced and proactive Executive Assistant to support the Chief Executive Officer (CEO) at our Amsterdam HQ. In this pivotal role, you will provide high-level administrative and strategic support directly to the CEO, ensuring the seamless management of the CEO’s day-to-day activities and enabling the CEO to focus on key business priorities and strategic decision-making at a global level.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;You will be a trusted partner to the CEO, taking full ownership of a complex and fast-moving schedule, coordinating a high volume of internal and external engagements, and anticipating needs before they arise. This role requires sound judgement, confidence, discretion and the ability to stay several steps ahead in a dynamic international environment.&lt;strong&gt;&amp;nbsp; &lt;/strong&gt;&lt;/p&gt;\n&lt;h4&gt;&lt;strong&gt;&lt;br&gt;&lt;/strong&gt;What you will do&lt;/h4&gt;\n&lt;ul&gt;\n&lt;li&gt;Manage the CEO’s complex calendar, communications and international travel across multiple time zones&lt;/li&gt;\n&lt;li&gt;Act as a trusted gatekeeper, prioritising competing demands and ensuring the CEO’s time is used effectively&lt;/li&gt;\n&lt;li&gt;Coordinate senior-level meetings, business trips and roadshows, including agendas, itineraries, logistics and briefing materials&lt;/li&gt;\n&lt;li&gt;Anticipate scheduling conflicts and changing priorities, proactively resolving issues and adjusting plans where needed&lt;/li&gt;\n&lt;li&gt;Ensure the CEO is prepared for meetings by coordinating agendas, pre-reads, presentations and other relevant materials&lt;/li&gt;\n&lt;li&gt;Act as a key liaison between the CEO, Management Board, internal teams and external stakeholders&lt;/li&gt;\n&lt;li&gt;Handle confidential and sensitive information with a high level of discretion and professionalism&lt;/li&gt;\n&lt;li&gt;Support board meetings, offsites and strategic or cross-functional projects&lt;/li&gt;\n&lt;li&gt;Manage expenses, invoices and approvals accurately and efficiently&lt;/li&gt;\n&lt;li&gt;Work closely with other Executive Assistants to provide seamless support and coverage&lt;/li&gt;\n&lt;li&gt;Provide flexibility and responsiveness outside standard working hours when required&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h4&gt;What you need to succeed&lt;/h4&gt;\n&lt;ul&gt;\n&lt;li&gt;A minimum of 5 years working experience as an Executive Assistant&lt;/li&gt;\n&lt;li&gt;Extensive experience supporting a CEO, C-suite or Management Board executive, ideally in financial services, trading or another fast-paced international environment&lt;/li&gt;\n&lt;li&gt;Exceptional calendar management, organisation and prioritisation skills, with experience managing complex schedules and international travel&lt;/li&gt;\n&lt;li&gt;Highly proactive and solutions-oriented, with excellent judgement and the confidence to take initiative independently&lt;/li&gt;\n&lt;li&gt;Strong interpersonal and communication skills, with the confidence to work with senior internal and external stakeholders&lt;/li&gt;\n&lt;li&gt;High level of discretion, integrity and professionalism when handling confidential information&lt;/li&gt;\n&lt;li&gt;Calm, adaptable and highly organised, with the ability to manage shifting priorities and work effectively under pressure&lt;/li&gt;\n&lt;li&gt;Strong attention to detail, ownership and follow-through, with a collaborative and hands-on approach&lt;/li&gt;\n&lt;li&gt;Advanced proficiency in Microsoft Office Suite (Outlook, Word, Excel, PowerPoint) and collaboration and AI platforms (Claude, Copilot, SharePoint)&lt;/li&gt;\n&lt;li&gt;Excellent written and verbal communication skills in English; additional languages are a plus&lt;/li&gt;\n&lt;li&gt;Comfortable working 5 days a week in the office and working flexible hours&amp;nbsp;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;h4&gt;What we offer&lt;/h4&gt;\n&lt;p&gt;At Flow Traders, we create the conditions for hard‑working, high‑performing people to do their best work. From a thorough onboarding and ongoing access to Flow Academy, to latest technology and a collaborative, non‑hierarchical culture, we give you the tools, ownership, and support to move fast and drive outcomes. We keep a close‑knit, small‑company feel while offering competitive salary, annual discretionary profit share, and comprehensive benefits, so talent can grow here, and stay here.&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;See our benefits below:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Flow Academy and opportunities to attend domain-related conferences&lt;/li&gt;\n&lt;li&gt;Daily catered lunch, great coffee, and a fully stocked kitchen and snack bar&lt;/li&gt;\n&lt;li&gt;In-house Bar and Lounge with arcade, table tennis, billiards, and game consoles&lt;/li&gt;\n&lt;li&gt;Company boat&lt;/li&gt;\n&lt;li&gt;In-house gym and sessions with personal trainer&lt;/li&gt;\n&lt;li&gt;Bi-weekly massages&lt;/li&gt;\n&lt;li&gt;Annual company trip and a variety of events throughout the year, such as the New Years Event&lt;/li&gt;\n&lt;li&gt;Global rotations across our offices worldwide&lt;/li&gt;\n&lt;li&gt;and more&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;em&gt;Flow Traders does not accept unsolicited resumes from any professional staffing or search firms. All resumes, and any other information identifying potential candidates, submitted to any employee at Flow Traders via-email, the Internet or directly without a valid and signed search agreement will be deemed free to contact by Flow Traders without any restrictions and no placement fee of any kind will be paid in the event the candidate is hired by Flow Traders.&lt;/em&gt;&lt;/p&gt;",
+   "departments": [
+    {
+     "id": 237109,
+     "name": "Management Support",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "offices": [
+    {
+     "id": 26356,
+     "name": "Amsterdam office",
+     "location": "Amsterdam, Noord-Holland, Netherlands",
+     "child_ids": [],
+     "parent_id": null
+    }
+   ],
+   "ai_disclaimer": "<p>We use Greenhouse’s AI-powered Talent Matching tool to help compare applications against the requirements of the role. This technology is used solely to support the recruitment process by highlighting potentially relevant skills and experience.</p><p>The tool does not make hiring or screening decisions on behalf of Flow Traders. All applications and CVs are reviewed by members of our recruitment team, and all hiring decisions are made by humans.</p>",
+   "include_ai_disclaimer": true,
+   "ai_opt_out_request_url": "http://app.greenhouse.io/ai_opt_out_request/job_post/8352263/ai_opt_out"
+  }
+ ],
+ "meta": {
+  "total": 6
+ }
+}

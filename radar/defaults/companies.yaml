@@ -1,0 +1,8 @@
+# Watchlist. Adding a company = one line. Fields:
+#   name, ats (greenhouse|lever|ashby|workable), token, priority (1 = highest),
+#   departments (optional id filter), complete (true if the board is fetched in full,
+#   so missing ids are recorded as closures), enabled (default true).
+companies:
+  - {name: IMC, ats: greenhouse, token: imc, departments: [4023813101], priority: 1, complete: true}
+  - {name: Flow Traders, ats: greenhouse, token: flowtraders, priority: 1, complete: true}
+  - {name: Optiver, ats: greenhouse, token: optiverprivate, priority: 1, complete: true}

@@ -1,0 +1,15 @@
+# Enabled sources and their params. tier: 1 = every run, 2 = every run if budget ok,
+# 3 = disabled by default. Greenhouse boards are listed in companies.yaml.
+sources:
+  greenhouse:
+    enabled: true
+    tier: 1
+  hn:
+    enabled: true
+    tier: 1
+    queries: ["C++", "visa", "relocation", "remote"]
+  wwr:
+    enabled: true
+    tier: 1
+    feeds:
+      - https://weworkremotely.com/categories/remote-back-end-programming-jobs.rss

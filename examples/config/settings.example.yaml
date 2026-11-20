@@ -1,0 +1,8 @@
+# Deployment overrides, deep-merged over radar/defaults/settings.yaml.
+# Dicts merge; lists replace the default list entirely (copy the default list to extend it).
+budget:
+  month_soft_limit: 1400
+  month_hard_limit: 1700
+inbox:
+  max_items: 150
+  max_tokens: 60000

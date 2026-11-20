@@ -1,0 +1,413 @@
+{
+ "jobs": [
+  {
+   "absolute_url": "https://job-boards.eu.greenhouse.io/imc/jobs/4356914101",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 4220902101,
+   "location": {
+    "name": "Zug, Switzerland"
+   },
+   "id": 4356914101,
+   "updated_at": "2026-11-19T12:32:14-05:00",
+   "requisition_id": "REQ-03471",
+   "title": "Quant Developer DeFi - Digital Assets",
+   "company_name": "IMC",
+   "first_published": "2024-07-24T07:50:10-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;IMC has a strong presence in traditional Finance and has been expanding into crypto and DeFi over the last years. Through its overseas affiliates, IMC provides liquidity and trade&lt;strong&gt;s&lt;/strong&gt; on many cryptocurrency exchanges and DeFi protocols. IMC Zug is currently looking to expand its DeFi team, which builds the algorithms that support IMC&#39;s trading activities&lt;/p&gt;\n&lt;p&gt;The DeFi team is small and highly flexible. We need the flexibility to respond to the rapidly changing DeFi landscape. As a member of the DeFi team, you will get the opportunity to work on many different projects and shape your role to your talents. Your work will vary from improving existing trading strategies and algorithms to working on completely new solutions from scratch. All, while closely collaborating with team members.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Your Core Responsibilities:&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Collaborate on developing our highly competitive trading algorithm and platform&lt;/li&gt;\n&lt;li&gt;Design and implement state-of-the-art, industry-leading trade execution and connectivity solutions&lt;/li&gt;\n&lt;li&gt;Research and analysis of Defi protocols using on chain data and trading strategies&lt;/li&gt;\n&lt;li&gt;Stay on top of updates to Defi protocols&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Your Skills and Experience:&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Hard skill requirements:\n&lt;ul&gt;\n&lt;li&gt;Proficiency in applied mathematics, statistics, numerical modeling&lt;/li&gt;\n&lt;li&gt;Knowledge of cryptocurrency&lt;/li&gt;\n&lt;li&gt;Proficiency in one more blockchain-related programming languages such as golang, rust, solidity, move etc.&lt;/li&gt;\n&lt;li&gt;Comfortable in a Linux R&amp;amp;D environment, incl. git and related tools&lt;/li&gt;\n&lt;li&gt;Ability to research independently&lt;/li&gt;\n&lt;li&gt;Proficiency in English&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;li&gt;Nice to haves\n&lt;ul&gt;\n&lt;li&gt;Experience in blockchain analytics, DeFi protocols, MEV&lt;/li&gt;\n&lt;li&gt;In-depth knowledge of concrete blockchains on conceptual and/or programming level&lt;/li&gt;\n&lt;li&gt;Hands-on programming experience in a quantitative trading environment&lt;/li&gt;\n&lt;li&gt;Deep understanding of the EVM, and/or the technical underpinnings of other blockchain ecosystems&lt;/li&gt;\n&lt;li&gt;Smart contract design and development&lt;/li&gt;\n&lt;li&gt;Experience with cryptography libraries, digital signature, hash algorithms&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Location and Office Culture&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;IMC office in Zug, Switzerland&lt;/li&gt;\n&lt;li&gt;Note that this is an onsite role, with some but limited flexibility for working from home&lt;/li&gt;\n&lt;li&gt;You can expect a dynamic, fast-paced environment that delivers a steady stream of challenges and opportunities&lt;/li&gt;\n&lt;li&gt;One of the most exciting aspects of the job is our quick feedback loop in the research, development and deployment of strategies&lt;/li&gt;\n&lt;li&gt;We give people lots of responsibility and the support they need to make an impact from day one&lt;/li&gt;\n&lt;li&gt;We promise you a flat structure and an open, collaborative culture that stimulates the sharing of ideas, knowledge and technology between our teams and offices&lt;/li&gt;\n&lt;/ul&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;strong&gt;About Us&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;IMC is a research-driven trading firm where quantitative modeling, machine learning, and engineering shape how modern markets are traded. A stabilizing force in markets since 1989, we provide liquidity across trading venues, delivering the best outcome in value and risk management to investors. Using our own technology and capital, we build proprietary systems and algorithms that operate across global markets. Our researchers, traders, and engineers work as a collective, combining rapid experimentation, advanced infrastructure, and real-time feedback to turn insight into execution and execution into advantage.&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;/div&gt;",
+   "departments": [
+    {
+     "id": 4023813101,
+     "name": "Development",
+     "child_ids": [
+      4023814101,
+      4023855101,
+      4069166101
+     ],
+     "parent_id": 4023812101
+    }
+   ],
+   "offices": [
+    {
+     "id": 4012441101,
+     "name": "Zug",
+     "location": "Zug, Switzerland",
+     "child_ids": [],
+     "parent_id": 4012440101
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://s101.recruiting.eu.greenhouse.io/ai_opt_out_request/job_post/4356914101/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.eu.greenhouse.io/imc/jobs/4430785101",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "employment": "employment_required",
+   "internal_job_id": 4259569101,
+   "location": {
+    "name": "New York, United States"
+   },
+   "id": 4430785101,
+   "updated_at": "2026-11-19T12:32:14-05:00",
+   "requisition_id": "REQ-03637",
+   "title": "Machine Learning Engineer",
+   "company_name": "IMC",
+   "first_published": "2024-10-25T18:04:33-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;&lt;strong&gt;Machine Learning Engineers&lt;/strong&gt; at IMC play a pivotal role in building the systems that drive training and deployment of large-scale ML models across IMC&#39;s global operations. They collaborate with quantitative researchers, hardware specialists and software engineers to build robust systems that get the most out of GPU acceleration, distributed computing and the broader open-source ML ecosystem. ML Engineers&#39; work directly shapes how fast we can experiment, iterate and deploy — accelerating the cycle that turns a research idea into a live trading strategy.&lt;/p&gt;\n&lt;p&gt;This is a unique opportunity to solve problems at the intersection of advanced machine learning and trading, where your contributions will shape the future of IMC&#39;s technology and trading capabilities.&lt;/p&gt;\n&lt;p&gt;As a team, our Machine Learning Engineers broadly work across two areas: &lt;strong&gt;ML Research Engineering&lt;/strong&gt;, focused on the systems and frameworks researchers use to train, evaluate and iterate on models at scale; and &lt;strong&gt;ML Performance Engineering&lt;/strong&gt;, focused on making ML workloads execute as efficiently as possible, typically through GPU and low-level systems optimization. These aren&#39;t rigid tracks, and there is overlap between them. You will bring depth of expertise in at least one of these focus areas and collaborate closely with global team members.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Your Core Responsibilities&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;The responsibilities below are representative of the role — the exact mix depends on your team, area of expertise and location.&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;ML Research Engineering&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Develop large-scale distributed training pipelines that manage complex datasets and models.&lt;/li&gt;\n&lt;li&gt;Partner with quantitative researchers to automate ML experiments, hyperparameter tuning and model retraining.&lt;/li&gt;\n&lt;li&gt;Work with HPC specialists to optimise workflows, improve training speed and reduce compute cost.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;ML Performance Engineering&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Build and optimise low-latency inference pipelines, ensuring models deliver real-time predictions in production systems.&lt;/li&gt;\n&lt;li&gt;Maximise performance in training and inference using GPU hardware and acceleration libraries.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Across both areas&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Extend and improve the internals of machine learning frameworks and open-source tools to raise their performance for our workloads.&lt;/li&gt;\n&lt;li&gt;Design scalable model infrastructure capable of handling high-volume trading data and delivering real-time, high-accuracy predictions.&lt;/li&gt;\n&lt;li&gt;Evaluate and roll out third-party tools that enhance model development, training and inference capabilities.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Your Skills and Experience&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Core, regardless of focus area:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;3+ years of experience in machine learning, with a focus on training or inference systems.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Production software engineering — &lt;/strong&gt;Python, testing discipline and genuine ownership of systems once they ship.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Machine learning fundamentals — &lt;/strong&gt;you understand modern ML workloads beyond high-level APIs and can reason about model behaviour, correctness and performance at the level relevant to your area of expertise.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;A systems mindset — &lt;/strong&gt;you reach for measurement before opinion on performance, scale or reliability issues, and can make sound build-versus-buy decisions.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Strong collaboration — &lt;/strong&gt;comfortable explaining the reasoning behind your technical decisions, working through differing perspectives with researchers and adapting your approach when the evidence supports it.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Depth in one or more of the following:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;Distributed training and large-scale systems — &lt;/strong&gt;parallelism strategy, data pipelines and checkpointing; frameworks such as PyTorch, TensorFlow or JAX.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;GPU performance and low-level optimisation — &lt;/strong&gt;reasoning about memory, compute and latency at the device level, and optimising performance across kernels, compilers and hardware (e.g. CUDA, Triton or equivalent).&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Production inference systems — &lt;/strong&gt;hands-on experience building and hardening real-time, low-latency prediction pipelines in high-performance environments.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Numerics and correctness at scale — &lt;/strong&gt;low-precision effects, KV caching, batching, and knowing which optimisations stay bit-exact.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;em&gt;Technologies listed above are examples rather than requirements; equivalent depth developed using other stacks or hardware platforms is equally relevant.&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Also a plus:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Exposure to cloud platforms and orchestration tools.&lt;/li&gt;\n&lt;li&gt;A track record of contributing to open-source projects in machine learning, data science or distributed systems.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Not sure this is the one? &lt;/strong&gt;If your strength is mainly in modelling and research direction, our Deep Learning Researcher roles are likely a closer fit. If your strength is in general infrastructure rather than ML-specific systems, take a look at our broader infrastructure engineering roles.&lt;/p&gt;\n&lt;p&gt;&lt;s",
+   "departments": [
+    {
+     "id": 4023813101,
+     "name": "Development",
+     "child_ids": [
+      4023814101,
+      4023855101,
+      4069166101
+     ],
+     "parent_id": 4023812101
+    }
+   ],
+   "offices": [
+    {
+     "id": 4012421101,
+     "name": "New York",
+     "location": "New York, United States",
+     "child_ids": [],
+     "parent_id": 4012407101
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://s101.recruiting.eu.greenhouse.io/ai_opt_out_request/job_post/4430785101/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.eu.greenhouse.io/imc/jobs/4439286101",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "education": "education_required",
+   "employment": "employment_required",
+   "internal_job_id": 4263884101,
+   "location": {
+    "name": "Chicago, United States"
+   },
+   "id": 4439286101,
+   "updated_at": "2026-11-19T12:32:14-05:00",
+   "requisition_id": "REQ-03670",
+   "title": "Trading Engineer - Strategy",
+   "company_name": "IMC",
+   "first_published": "2025-01-15T10:07:30-05:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;We’re looking for a hands-on, entrepreneurial Trading Engineer to join our Strategy Development team. This role sits at the heart of IMC’s trading operation, where technology, data, and market strategy meet. You’ll own systems that power our trading strategies, build automations that make us faster and smarter, and keep our trading running smoothly under pressure.&lt;/p&gt;\n&lt;p&gt;This is an ideal opportunity for someone with an SRE or operations engineering background who wants to get closer to the action, where milliseconds matter and creativity drives impact.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Your Core Responsibilities:&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Be on the front lines of trading: Monitor system health and performance in real time, respond to market-driven incidents, and ensure our systems stay up and fast during trading hours. Dive deep into distributed architectures to identify root causes and prevent recurrences.&lt;/li&gt;\n&lt;li&gt;Engineer away the pain: Build tools and automations that eliminate manual processes, scale our reliability, and free time for innovation.&lt;/li&gt;\n&lt;li&gt;Collaborate across disciplines: Partner with traders, quants, and developers to deliver high-impact improvements to our trading stack.&lt;/li&gt;\n&lt;li&gt;Continuously improve: Challenge existing processes, propose creative solutions, and drive reliability and performance through engineering excellence.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Your Skills &amp;amp; Experience:&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Bachelor’s degree in Computer Science, Information Technology, or related field&lt;/li&gt;\n&lt;li&gt;3+ years in site reliability, systems engineering, or technical operations, ideally supporting high-performance or real-time systems&lt;/li&gt;\n&lt;li&gt;A software-development mindset applied to automating operational problems (Python required)&lt;/li&gt;\n&lt;li&gt;Hands-on experience managing production Linux and Kubernetes environments&lt;/li&gt;\n&lt;li&gt;Familiarity with Prometheus, SQL/MongoDB, InfluxDB, Kafka, or similar technologies&lt;/li&gt;\n&lt;li&gt;A proactive, problem-solving mindset. We are looking for someone who thrives under pressure and enjoys learning new systems quickly&lt;/li&gt;\n&lt;li&gt;Excellent communication skills and a collaborative spirit&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;span style=&quot;color: rgb(221, 234, 255);&quot;&gt;#LI-DNP&lt;/span&gt;&lt;/p&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;p&gt;The Base Salary range for the role is included below. Base salary is only one component of total compensation; all full-time, permanent positions are eligible for a discretionary bonus and benefits, including paid leave and insurance.&amp;nbsp;Please visit &lt;a href=&quot;https://www.imc.com/us/careers/benefits&quot;&gt;Benefits - US | IMC Trading&lt;/a&gt; for more comprehensive information.&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;Salary Range&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$175,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$225,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;strong&gt;About Us&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;IMC is a research-driven trading firm where quantitative modeling, machine learning, and engineering shape how modern markets are traded. A stabilizing force in markets since 1989, we provide liquidity across trading venues, delivering the best outcome in value and risk management to investors. Using our own technology and capital, we build proprietary systems and algorithms that operate across global markets. Our researchers, traders, and engineers work as a collective, combining rapid experimentation, advanced infrastructure, and real-time feedback to turn insight into execution and execution into advantage.&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;/div&gt;",
+   "departments": [
+    {
+     "id": 4023839101,
+     "name": "Systems & Infrastructure",
+     "child_ids": [
+      4028469101,
+      4023840101,
+      4023859101,
+      4023856101,
+      4024272101,
+      4023857101,
+      4023860101,
+      4023858101,
+      4069167101
+     ],
+     "parent_id": 4023812101
+    }
+   ],
+   "offices": [
+    {
+     "id": 4012408101,
+     "name": "Chicago",
+     "location": "Chicago, United States",
+     "child_ids": [],
+     "parent_id": 4012407101
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://s101.recruiting.eu.greenhouse.io/ai_opt_out_request/job_post/4439286101/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.eu.greenhouse.io/imc/jobs/4439297101",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "education": "education_required",
+   "employment": "employment_required",
+   "internal_job_id": 4263892101,
+   "location": {
+    "name": "Chicago, United States"
+   },
+   "id": 4439297101,
+   "updated_at": "2026-11-19T12:32:14-05:00",
+   "requisition_id": "REQ-03678",
+   "title": "Data Engineer",
+   "company_name": "IMC",
+   "first_published": "2025-06-10T12:30:56-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;We are seeking a dedicated and experienced Data Engineer to join our Chicago team. The ideal candidate is energized by working in a cutting-edge environment that enables IMC to continue to be at the forefront of the evolving global financial markets.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Your Core Responsibilities:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Architect, develop and deploy our Big Data environment (Kafka, Hadoop, Dremio, etc.)&lt;/li&gt;\n&lt;li&gt;Build, deploy, and monitor our data processing pipelines (Java, Python, Spark, Flink)&lt;/li&gt;\n&lt;li&gt;Collaborate with development teams on data modeling, data ingestion, and capacity planning&lt;/li&gt;\n&lt;li&gt;Work with users to ensure data integrity and availability&lt;/li&gt;\n&lt;li&gt;Act as a Big Data SME and consult on a variety of data-related questions from users and developers&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Your Skills and Experience:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;5+ years experience working in a mature data engineering environment&lt;/li&gt;\n&lt;li&gt;3+ years of experience building Kafka streaming applications and/or maintaining Kafka clusters&lt;/li&gt;\n&lt;li&gt;2+ years of experience building applications/pipelines with Big Data backends (S3, HDFS, Databricks, Iceberg, etc)&lt;/li&gt;\n&lt;li&gt;Experience with Apache Spark, Apache Flink or similar tools&lt;/li&gt;\n&lt;li&gt;Strong Java, Python, and SQL development skills&lt;/li&gt;\n&lt;li&gt;Experience with common data-science toolkits, especially python-based&lt;/li&gt;\n&lt;li&gt;Hands-on experience with Kubernetes and Docker&lt;/li&gt;\n&lt;li&gt;Experience with monitoring tools such as Prometheus/Grafana, Alert Manager, Alerta and OpsGenie&lt;/li&gt;\n&lt;li&gt;Strong statistical analysis skills&lt;/li&gt;\n&lt;li&gt;Demonstrated ability to troubleshoot and conduct root-cause analysis&lt;/li&gt;\n&lt;li&gt;Unix scripting experience (bash, python, etc.)&lt;/li&gt;\n&lt;/ul&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;p&gt;The Base Salary range for the role is included below. Base salary is only one component of total compensation; all full-time, permanent positions are eligible for a discretionary bonus and benefits, including paid leave and insurance.&amp;nbsp;Please visit &lt;a href=&quot;https://www.imc.com/us/careers/benefits&quot;&gt;Benefits - US | IMC Trading&lt;/a&gt; for more comprehensive information.&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;Salary Range&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$175,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$225,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;strong&gt;About Us&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;IMC is a research-driven trading firm where quantitative modeling, machine learning, and engineering shape how modern markets are traded. A stabilizing force in markets since 1989, we provide liquidity across trading venues, delivering the best outcome in value and risk management to investors. Using our own technology and capital, we build proprietary systems and algorithms that operate across global markets. Our researchers, traders, and engineers work as a collective, combining rapid experimentation, advanced infrastructure, and real-time feedback to turn insight into execution and execution into advantage.&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;/div&gt;",
+   "departments": [
+    {
+     "id": 4023839101,
+     "name": "Systems & Infrastructure",
+     "child_ids": [
+      4028469101,
+      4023840101,
+      4023859101,
+      4023856101,
+      4024272101,
+      4023857101,
+      4023860101,
+      4023858101,
+      4069167101
+     ],
+     "parent_id": 4023812101
+    }
+   ],
+   "offices": [
+    {
+     "id": 4012408101,
+     "name": "Chicago",
+     "location": "Chicago, United States",
+     "child_ids": [],
+     "parent_id": 4012407101
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://s101.recruiting.eu.greenhouse.io/ai_opt_out_request/job_post/4439297101/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.eu.greenhouse.io/imc/jobs/4547961101",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": true
+    }
+   ],
+   "education": "education_required",
+   "internal_job_id": 4314653101,
+   "location": {
+    "name": "Amsterdam, Netherlands"
+   },
+   "id": 4547961101,
+   "updated_at": "2026-11-19T12:32:14-05:00",
+   "requisition_id": "REQ-03815",
+   "title": "Performance Engineer",
+   "company_name": "IMC",
+   "first_published": "2025-07-25T03:34:25-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;Technology is at the heart of modern electronic trading. IMC is seeking highly driven individuals to apply quantitative research techniques and practical experimentation to the technology used by&amp;nbsp;exchanges, connectivity providers, and our own systems. You will develop new strategies to outpace other market participants in the highly competitive world of ultra-low-latency trading.&lt;/p&gt;\n&lt;p&gt;As a Performance Engineer at IMC, you will play a pivotal role in analysing, optimising, and tuning our systems interaction with exchange systems holistically. Working closely with cross-functional teams, you’ll be tasked with uncovering performance improvements across the trading stack. This role combines technical ingenuity with creative problem-solving to outsmart competition in one of the most demanding technical landscapes.&lt;/p&gt;\n&lt;p&gt;Your Core Responsibilities:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Black Box Reverse Engineering and Analysis: Analyse and understand the behaviour of complex systems using black-box techniques, identifying performance bottlenecks and optimisation opportunities. Designing and performing statistical experiments to explain emergent real world phenomena.&lt;/li&gt;\n&lt;li&gt;Quantitative research: use large datasets to understand exchange technology.&lt;/li&gt;\n&lt;li&gt;Experimentation &amp;amp; Prototyping:&amp;nbsp;Design, implement, and test innovative ideas, experiments and technologies. Develop quick internal prototypes to evaluate performance and real-world applicability.&lt;/li&gt;\n&lt;li&gt;Collaboration &amp;amp; Communication:&amp;nbsp;Liaise effectively with traders, software and hardware engineers, and infrastructure teams to share insights and implement solutions.&lt;/li&gt;\n&lt;li&gt;System Analysis:&amp;nbsp;Analyse terabytes of network data to identify patterns, validate hypotheses, and optimise system performance.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;Your Skills and Experience:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Proficient understanding of computer internals, networking and Linux (at least two out of three). Skilled in reverse engineering techniques.&lt;/li&gt;\n&lt;li&gt;Inquisitive mind. Think Sherlock Holmes and the case of the missing microsecond.&lt;/li&gt;\n&lt;li&gt;Understanding of complex, bespoke networks and networking stacks.&lt;/li&gt;\n&lt;li&gt;Experience with data and system analysis in Python&lt;/li&gt;\n&lt;li&gt;Be able to work self-sufficiently with minimal guidance after internal training&lt;/li&gt;\n&lt;li&gt;Capable of working autonomously while contributing to a multidisciplinary team. Always looking for ways to gain an edge.&lt;/li&gt;\n&lt;/ul&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;strong&gt;About Us&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;IMC is a research-driven trading firm where quantitative modeling, machine learning, and engineering shape how modern markets are traded. A stabilizing force in markets since 1989, we provide liquidity across trading venues, delivering the best outcome in value and risk management to investors. Using our own technology and capital, we build proprietary systems and algorithms that operate across global markets. Our researchers, traders, and engineers work as a collective, combining rapid experimentation, advanced infrastructure, and real-time feedback to turn insight into execution and execution into advantage.&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;/div&gt;",
+   "departments": [
+    {
+     "id": 4023813101,
+     "name": "Development",
+     "child_ids": [
+      4023814101,
+      4023855101,
+      4069166101
+     ],
+     "parent_id": 4023812101
+    }
+   ],
+   "offices": [
+    {
+     "id": 4012437101,
+     "name": "Amsterdam",
+     "location": "Amsterdam, Netherlands",
+     "child_ids": [],
+     "parent_id": 4012436101
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://s101.recruiting.eu.greenhouse.io/ai_opt_out_request/job_post/4547961101/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.eu.greenhouse.io/imc/jobs/4567047101",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": true
+    }
+   ],
+   "internal_job_id": 4325091101,
+   "location": {
+    "name": "Amsterdam, Netherlands; London, United Kingdom"
+   },
+   "id": 4567047101,
+   "updated_at": "2026-11-19T12:32:14-05:00",
+   "requisition_id": "REQ-03871",
+   "title": "Machine Learning Engineer",
+   "company_name": "IMC",
+   "first_published": "2025-04-01T15:20:28-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p class=&quot;_13fp8yk6c dzswju0 dzswju2&quot;&gt;Machine Learning Engineers at IMC play a pivotal role in building the systems that drive training and deployment of large-scale ML models across IMC&#39;s global operations. They collaborate with quantitative researchers, hardware specialists and software engineers to build robust systems that get the most out of GPU acceleration, distributed computing and the broader open-source ML ecosystem. ML Engineers&#39; work directly shapes how fast we can experiment, iterate and deploy, accelerating the cycle that turns a research idea into a live trading strategy.&lt;/p&gt;\n&lt;p class=&quot;_13fp8yk6c dzswju0 dzswju2&quot;&gt;This is a unique opportunity to solve problems at the intersection of advanced machine learning and trading, where your contributions will shape the future of IMC&#39;s technology and trading capabilities.&lt;/p&gt;\n&lt;p class=&quot;_13fp8yk6c dzswju0 dzswju2&quot;&gt;As a team, our Machine Learning Engineers broadly work across two areas: &lt;strong class=&quot;_13fp8yk6c dzswju0&quot;&gt;ML Research Engineering&lt;/strong&gt;, focused on the systems and frameworks researchers use to train, evaluate and iterate on models at scale; and &lt;strong class=&quot;_13fp8yk6c dzswju0&quot;&gt;ML Performance Engineering&lt;/strong&gt;, focused on making ML workloads execute as efficiently as possible, typically through GPU and low-level systems optimisation. These aren&#39;t rigid tracks, and there is overlap between them. You will bring depth of expertise in at least one of these focus areas and collaborate closely with global team members.&lt;/p&gt;\n&lt;p class=&quot;_13fp8yk6c dzswju0 dzswju2&quot;&gt;&lt;strong class=&quot;_13fp8yk6c dzswju0&quot;&gt;Your Core Responsibilities:&lt;/strong&gt;&lt;/p&gt;\n&lt;div&gt;\n&lt;p class=&quot;_13fp8yk6c dzswju0 dzswju2&quot;&gt;ML Research Engineering:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li class=&quot;_13fp8yk6c dzswju0 dzswju2&quot;&gt;Develop large-scale distributed training pipelines that manage complex datasets and models.&lt;/li&gt;\n&lt;li class=&quot;_13fp8yk6c dzswju0 dzswju2&quot;&gt;Partner with quantitative researchers to automate ML experiments, hyperparameter tuning and model retraining.&lt;/li&gt;\n&lt;li class=&quot;_13fp8yk6c dzswju0 dzswju2&quot;&gt;Work with HPC specialists to optimise workflows, improve training speed and reduce compute cost.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/div&gt;\n&lt;div&gt;\n&lt;p class=&quot;_13fp8yk6c dzswju0 dzswju2&quot;&gt;ML Performance Engineering:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li class=&quot;_13fp8yk6c dzswju0 dzswju2&quot;&gt;Build and optimise low-latency inference pipelines, ensuring models deliver real-time predictions in production systems.&lt;/li&gt;\n&lt;li class=&quot;_13fp8yk6c dzswju0 dzswju2&quot;&gt;Maximise performance in training and inference using GPU hardware and acceleration libraries.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/div&gt;\n&lt;div&gt;\n&lt;p class=&quot;_13fp8yk6c dzswju0 dzswju2&quot;&gt;Across both areas:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li class=&quot;_13fp8yk6c dzswju0 dzswju2&quot;&gt;Extend and improve the internals of machine learning frameworks and open-source tools to raise their performance for our workloads.&lt;/li&gt;\n&lt;li class=&quot;_13fp8yk6c dzswju0 dzswju2&quot;&gt;Design scalable model infrastructure capable of handling high-volume trading data and delivering real-time, high-accuracy predictions.&lt;/li&gt;\n&lt;li class=&quot;_13fp8yk6c dzswju0 dzswju2&quot;&gt;Evaluate and roll out third-party tools that enhance model development, training and inference capabilities.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/div&gt;\n&lt;p class=&quot;_13fp8yk6c dzswju0 dzswju2&quot;&gt;&lt;strong class=&quot;_13fp8yk6c dzswju0&quot;&gt;Your Skills and Experience:&lt;/strong&gt;&lt;/p&gt;\n&lt;div&gt;\n&lt;p class=&quot;_13fp8yk6c dzswju0 dzswju2&quot;&gt;Core, regardless of focus area:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li class=&quot;_13fp8yk6c dzswju0 dzswju2&quot;&gt;3+ years&#39; experience in machine learning, with a focus on training or inference systems.&lt;/li&gt;\n&lt;li class=&quot;_13fp8yk6c dzswju0 dzswju2&quot;&gt;Production software engineering: Python, testing discipline and genuine ownership of systems once they ship.&lt;/li&gt;\n&lt;li class=&quot;_13fp8yk6c dzswju0 dzswju2&quot;&gt;Machine learning fundamentals: you understand modern ML workloads beyond high-level APIs and can reason about model behaviour, correctness and performance at the level relevant to your area of expertise.&lt;/li&gt;\n&lt;li class=&quot;_13fp8yk6c dzswju0 dzswju2&quot;&gt;A systems mindset: you reach for measurement before opinion on performance, scale or reliability issues, and can make sound build-versus-buy decisions.&lt;/li&gt;\n&lt;li class=&quot;_13fp8yk6c dzswju0 dzswju2&quot;&gt;Strong collaboration: comfortable explaining the reasoning behind your technical decisions, working through differing perspectives with researchers and adapting your approach when the evidence supports it.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/div&gt;\n&lt;div&gt;\n&lt;p class=&quot;_13fp8yk6c dzswju0 dzswju2&quot;&gt;Depth in one or more of the following:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li class=&quot;_13fp8yk6c dzswju0 dzswju2&quot;&gt;Distributed training and large-scale systems: parallelism strategy, data pipelines and checkpointing; frameworks such as PyTorch, TensorFlow or JAX.&lt;/li&gt;\n&lt;li class=&quot;_13fp8yk6c dzswju0 dzswju2&quot;&gt;GPU performance and low-level optimisation: reasoning about memory, compute and latency at the device level, and optimising performance across kernels, compilers and hardware (e.g. CUDA, Triton or equivalent).&lt;/li&gt;\n&lt;li class=&quot;_13fp8yk6c dzswju0 dzswju2&quot;&gt;Production inference systems: hands-on experience building and hardening real-time, low-latency prediction pipelines in high-performance environments.&lt;/li&gt;\n&lt;li class=&quot;_13fp8yk6c dzswju0 dzswju2&quot;&gt;Numerics and correctness at scale: low-precision effects, KV caching, batching, and knowin",
+   "departments": [
+    {
+     "id": 4023813101,
+     "name": "Development",
+     "child_ids": [
+      4023814101,
+      4023855101,
+      4069166101
+     ],
+     "parent_id": 4023812101
+    }
+   ],
+   "offices": [
+    {
+     "id": 4012437101,
+     "name": "Amsterdam",
+     "location": "Amsterdam, Netherlands",
+     "child_ids": [],
+     "parent_id": 4012436101
+    },
+    {
+     "id": 4012443101,
+     "name": "London",
+     "location": "London, United Kingdom",
+     "child_ids": [],
+     "parent_id": 4012442101
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://s101.recruiting.eu.greenhouse.io/ai_opt_out_request/job_post/4567047101/ai_opt_out"
+  },
+  {
+   "absolute_url": "https://job-boards.eu.greenhouse.io/imc/jobs/5036428101",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "education": "education_required",
+   "internal_job_id": null,
+   "location": {
+    "name": "Sydney,  Australia"
+   },
+   "id": 5036428101,
+   "updated_at": "2026-11-19T12:32:14-05:00",
+   "requisition_id": null,
+   "title": "2027 ANZ Chess Academy Interest Form",
+   "company_name": "IMC",
+   "first_published": "2026-11-15T22:27:27-05:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;Are you a student interested in learning more about the 2027 ANZ Chess Academy program? We invite you to fill out this form to share your information with us. By submitting the form, you&#39;ll be added to our prospect list so our team can reach out with details on upcoming opportunities, program updates, and how to play. We look forward to connecting with you!&lt;/p&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;strong&gt;About Us&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;IMC is a research-driven trading firm where quantitative modeling, machine learning, and engineering shape how modern markets are traded. A stabilizing force in markets since 1989, we provide liquidity across trading venues, delivering the best outcome in value and risk management to investors. Using our own technology and capital, we build proprietary systems and algorithms that operate across global markets. Our researchers, traders, and engineers work as a collective, combining rapid experimentation, advanced infrastructure, and real-time feedback to turn insight into execution and execution into advantage.&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;/div&gt;",
+   "departments": [],
+   "offices": [],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": null
+  },
+  {
+   "absolute_url": "https://job-boards.eu.greenhouse.io/imc/jobs/5042009101",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "education": "education_required",
+   "internal_job_id": 4622663101,
+   "location": {
+    "name": "New York, United States"
+   },
+   "id": 5042009101,
+   "updated_at": "2026-11-19T12:32:14-05:00",
+   "requisition_id": "REQ-04981",
+   "title": "Trading Analyst",
+   "company_name": "IMC",
+   "first_published": "2026-11-19T11:48:15-05:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;IMC is looking for a talented and analytically driven Trading Analyst in New York to join our systematic equities business.&lt;/p&gt;\n&lt;p&gt;Our Trading team is responsible for overseeing the real-time trading, performance, and risk of our systematic strategies. Working closely with quantitative researchers, senior leaders, execution engineers, and external partners, the team makes time-sensitive decisions to ensure strategies operate effectively, respond to changing market conditions, and identify opportunities to improve trading performance.&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;&amp;nbsp;&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Your Core Responsibilities:&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Real-Time Trading Oversight: Monitor live systematic trading strategies, identify anomalies, and take timely action to ensure operational stability and continuity.&lt;/li&gt;\n&lt;li&gt;Risk Management: Monitor portfolio exposures, trading activity, and risk limits, escalating and responding to potential risks.&lt;/li&gt;\n&lt;li&gt;Performance Analysis: Analyze trading performance, P&amp;amp;L, execution quality, and market behavior to identify opportunities for improvement.&lt;/li&gt;\n&lt;li&gt;Research Collaboration: Work closely with quantitative researchers to investigate trading outcomes, evaluate strategy behavior, and support ongoing optimization.&lt;/li&gt;\n&lt;li&gt;Technology &amp;amp; Automation: Partner with engineers to improve trading systems, monitoring tools, and automated operational workflows.&lt;/li&gt;\n&lt;li&gt;Business Expansion: Support the deployment of new strategies and expansion into new markets, venues, and asset classes.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;em&gt;&amp;nbsp;&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Your Skills and Experience:&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;2+ years of experience in a trading analyst, trade support, or trading operations role at a bank or trading firm.&lt;/li&gt;\n&lt;li&gt;Strong quantitative and analytical skills, with a degree in Mathematics, Computer Science, Physics, Engineering, or a related field.&lt;/li&gt;\n&lt;li&gt;Genuine interest in financial markets, systematic trading, and quantitative research.&lt;/li&gt;\n&lt;li&gt;Sound judgment and the ability to make effective decisions under pressure.&lt;/li&gt;\n&lt;li&gt;Intellectual curiosity, attention to detail, and a proactive approach to problem-solving.&lt;/li&gt;\n&lt;li&gt;Strong communication skills and the ability to collaborate across trading, research, and technology teams.&lt;/li&gt;\n&lt;li&gt;Experience with Python, SQL, or other programming languages is advantageous.&lt;/li&gt;\n&lt;li&gt;We value analytical ability, initiative, and a willingness to learn.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;Please note that immigration sponsorship is not offered for this specific opening.&lt;/em&gt;&lt;/p&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;p&gt;The Base Salary range for the role is included below. Base salary is only one component of total compensation; all full-time, permanent positions are eligible for a discretionary bonus and benefits, including paid leave and insurance.&amp;nbsp;Please visit &lt;a href=&quot;https://www.imc.com/us/careers/benefits&quot;&gt;Benefits - US | IMC Trading&lt;/a&gt; for more comprehensive information.&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;Salary Range&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$200,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$250,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;strong&gt;About Us&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;IMC is a research-driven trading firm where quantitative modeling, machine learning, and engineering shape how modern markets are traded. A stabilizing force in markets since 1989, we provide liquidity across trading venues, delivering the best outcome in value and risk management to investors. Using our own technology and capital, we build proprietary systems and algorithms that operate across global markets. Our researchers, traders, and engineers work as a collective, combining rapid experimentation, advanced infrastructure, and real-time feedback to turn insight into execution and execution into advantage.&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;/div&gt;",
+   "departments": [
+    {
+     "id": 4068274101,
+     "name": "Trading Operations (Group)",
+     "child_ids": [
+      4069171101
+     ],
+     "parent_id": null
+    }
+   ],
+   "offices": [
+    {
+     "id": 4012421101,
+     "name": "New York",
+     "location": "New York, United States",
+     "child_ids": [],
+     "parent_id": 4012407101
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": false,
+   "ai_opt_out_request_url": "http://s101.recruiting.eu.greenhouse.io/ai_opt_out_request/job_post/5042009101/ai_opt_out"
+  }
+ ],
+ "meta": {
+  "total": 8
+ }
+}

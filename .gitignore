@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+
+# Personal data and secrets never live in this public repo.
+/data/
+/dryrun_out/
+*.session
+*.session-journal
+.env
+.env.*
+config/settings.yaml
+config/sources.yaml
+config/companies.yaml

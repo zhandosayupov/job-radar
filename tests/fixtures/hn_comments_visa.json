@@ -1,0 +1,230 @@
+{
+ "hits": [
+  {
+   "_tags": [
+    "comment",
+    "author_Mario10",
+    "story_50338728"
+   ],
+   "comment_text": "outGoing | Software Engineer | Lisbon, Portugal | HYBRID | €25k–€35k + meal allowance + health insurance<p>Started in Lisbon&#x27;s local events scene and now work across festivals, sports and cultural events of every kind. We&#x27;ve raised our first round and are launching new products soon, so this is an early hire with real ownership.<p>You&#x27;ll ship features across the whole product, work with product and design on what we build next, learn directly from the founders, and take part in on-call for what you ship. We care more about how fast you learn and how much you own than about years of experience.<p>Portuguese and English. You need to live in Portugal or already have the right to work in the EU (no visa sponsorship).\nProcess: a 30 minute call with a founder, then a technical interview.<p>Apply: <a href=\"https:&#x2F;&#x2F;idealjob.app&#x2F;jobs&#x2F;outgoing&#x2F;1?utm_source=hackernews&amp;utm_campaign=whoishiring\" rel=\"nofollow\">https:&#x2F;&#x2F;idealjob.app&#x2F;jobs&#x2F;outgoing&#x2F;1?utm_source=hackernews&amp;u...</a>",
+   "created_at": "2026-11-16T15:49:35Z",
+   "created_at_i": 1794844175,
+   "objectID": "50518905",
+   "parent_id": 50338728,
+   "story_id": 50338728,
+   "story_title": "Ask HN: Who is hiring? (November 2026)",
+   "updated_at": "2026-11-17T05:26:45Z"
+  },
+  {
+   "_tags": [
+    "comment",
+    "author_jayapokuri",
+    "story_50338728"
+   ],
+   "comment_text": "Bonfire Analytics | Senior Data Scientist, Staff Data Scientist | New York, NY (FiDi) | ONSITE &#x2F; HYBRID | Full-time | $140K-$225K + 0.05%-0.2% equity<p>- Bonfire is a small, seed-stage team in NYC. We build provider and claims analytics that healthtech companies (digital health, medical device and biotech) use to take their products to market: who treats the patients they serve, where the volume is, and which providers to focus on first.<p>- What you&#x27;d do: own analytical problems end to end across billions of medical and pharmacy claims, from scoping the question with a customer to the answer they act on. You&#x27;d work directly with me (co-founder and CTO) and our customers, with AI tools at the center of how you work.<p>- We&#x27;d especially like to hear from people who were early at a small startup or have started something themselves. Experience with claims, provider or payer data is a plus, not a requirement.<p>- Senior: 3+ years in data science, $140K-$190K. Staff: 5+ years, leads data science and helps hire the team, $160K-$225K. Both include 0.05%-0.2% equity.<p>- On-site or hybrid in our FiDi office. We can&#x27;t sponsor visas.<p>Apply: <a href=\"https:&#x2F;&#x2F;jobs.ashbyhq.com&#x2F;bonfireanalytics?utm_source=hn\" rel=\"nofollow\">https:&#x2F;&#x2F;jobs.ashbyhq.com&#x2F;bonfireanalytics?utm_source=hn</a>",
+   "created_at": "2026-11-13T18:09:19Z",
+   "created_at_i": 1794593359,
+   "objectID": "50487397",
+   "parent_id": 50338728,
+   "story_id": 50338728,
+   "story_title": "Ask HN: Who is hiring? (November 2026)",
+   "updated_at": "2026-11-13T18:11:24Z"
+  },
+  {
+   "_tags": [
+    "comment",
+    "author_noahho",
+    "story_50338728"
+   ],
+   "comment_text": "Prior Labs | Berlin, Freiburg, NYC | ONSITE | Full-time | <a href=\"https:&#x2F;&#x2F;priorlabs.ai\" rel=\"nofollow\">https:&#x2F;&#x2F;priorlabs.ai</a><p>We build foundation models for tables. TabPFN takes your whole dataset as context and predicts in one forward pass - no training, no tuning - after pre-training only on synthetic data from causal priors. TabPFN v2 was a Nature cover; the open models have 4M+ downloads and run in production from liquid biopsy to rail maintenance. Since July we&#x27;re an independent lab inside SAP with €1B+ over four years; models stay open-weight and research stays public.<p>We&#x27;re hiring engineers:<p>Infrastructure Engineer - multi-cluster GPU training on Slurm, GCP today and more providers in 2027. The compute budget is tens of millions a year, and you own it.<p>ML Engineer, Backend - own inference end to end: latency, batching and memory on million-row inputs, across our API, customer VPCs and open weights.<p>Full Stack Developer - the product where data scientists, agents and our models meet. TypeScript&#x2F;React + Python&#x2F;FastAPI.<p>Also hiring: Research Scientists and Research Engineers (Foundation Model), Applied Scientist (NYC), PhD research interns, GTM and ops roles. We sponsor visas and help with relocation.<p>~45 people, led by Frank Hutter, advised by Yann LeCun and Bernhard Schölkopf.<p><a href=\"https:&#x2F;&#x2F;jobs.ashbyhq.com&#x2F;prior-labs\" rel=\"nofollow\">https:&#x2F;&#x2F;jobs.ashbyhq.com&#x2F;prior-labs</a>",
+   "created_at": "2026-11-06T20:57:01Z",
+   "created_at_i": 1793998621,
+   "objectID": "50398420",
+   "parent_id": 50338728,
+   "story_id": 50338728,
+   "story_title": "Ask HN: Who is hiring? (November 2026)",
+   "updated_at": "2026-11-09T02:53:20Z"
+  },
+  {
+   "_tags": [
+    "comment",
+    "author_niuro",
+    "story_50338728"
+   ],
+   "comment_text": "Nirvana Robotics | Mechanical Engineer, Electrical Engineer, Robotic Controls Engineer | New York, NY | ONSITE | Full-time | $220K-$300K<p>Nirvana Robotics builds humanoid robots with robotic arms that work in industrial environments. Their hardware team in NYC is growing, and each of these roles owns a subsystem end to end on physical robots. I&#x27;m a recruiter at Niuro, Nirvana&#x27;s hiring partner for these roles; the links below go to our application form and I read every application myself.<p>Mechanical Engineer ($230K-$260K): mechanical design of robotic arms and manipulators: joints, actuators, transmissions, end effectors. You optimize for torque density, backdrivability and stiffness, prototype with additive and precision machining, and take assemblies to production. GD&amp;T, tolerance stack-ups, SolidWorks (or Creo&#x2F;NX&#x2F;Onshape).\nApply: <a href=\"https:&#x2F;&#x2F;app.niuro.io&#x2F;source&#x2F;H4yYHesP?ref=ps_EBRp88zU7jcdRZm8VJc8s6Wt_yVsmnoS1d4y2CMGR1k&amp;utm_source=hacker-news&amp;utm_medium=job-board&amp;utm_campaign=mechanical-engineer-newyork-onsite&amp;utm_content=hn-whoishiring-202611\" rel=\"nofollow\">https:&#x2F;&#x2F;app.niuro.io&#x2F;source&#x2F;H4yYHesP?ref=ps_EBRp88zU7jcdRZm8...</a><p>Electrical Engineer ($220K-$250K): electrical architecture for arms and humanoids: power distribution, motor-driver boards, sensor PCBs, harnessing. Multilayer mixed-signal and high-current layout in Altium, BLDC drivers and current sensing, bench bring-up and DFM with PCBA partners. EtherCAT, CAN or BMS is a plus.\nApply: <a href=\"https:&#x2F;&#x2F;app.niuro.io&#x2F;source&#x2F;BeVx3CrN?ref=ps_5biniQ0FTotNxfmTh3F-l_F_F5JJz9i3GVeRX74xl_o&amp;utm_source=hacker-news&amp;utm_medium=job-board&amp;utm_campaign=electrical-engineer-newyork-onsite&amp;utm_content=hn-whoishiring-202611\" rel=\"nofollow\">https:&#x2F;&#x2F;app.niuro.io&#x2F;source&#x2F;BeVx3CrN?ref=ps_5biniQ0FTotNxfmT...</a><p>Robotic Controls Engineer ($270K-$300K): low-level control for multi-DOF arms: joint-level actuation, impedance&#x2F;admittance and whole-body control, sim-to-real. PID&#x2F;LQR&#x2F;state-space, MoveIt or cuRobo, C++ and Python, ROS 2.\nApply: <a href=\"https:&#x2F;&#x2F;app.niuro.io&#x2F;source&#x2F;gUNqx8Lj?ref=ps_BdIAhZPrP7yQt2P4cWjzv8KdhNxYQ0txP6u6FT47lYU&amp;utm_source=hacker-news&amp;utm_medium=job-board&amp;utm_campaign=nirvana-robotic-controls-engineer&amp;utm_content=hn-whoishiring-202611\" rel=\"nofollow\">https:&#x2F;&#x2F;app.niuro.io&#x2F;source&#x2F;gUNqx8Lj?ref=ps_BdIAhZPrP7yQt2P4...</a><p>For all three: hands-on work on real robot hardware (arms, grippers, mobile manipulators, actuated joints or humanoids). Mechanical and Electrical: 5+ years with a bachelor&#x27;s or 3+ with a master&#x27;s. Controls: roughly BS + 4 years, MS + 2 or a PhD. US-based; relocation to NYC within the US is supported. Visa sponsorship is not available.",
+   "created_at": "2026-11-05T20:23:44Z",
+   "created_at_i": 1793910224,
+   "objectID": "50383984",
+   "parent_id": 50338728,
+   "story_id": 50338728,
+   "story_title": "Ask HN: Who is hiring? (November 2026)",
+   "updated_at": "2026-11-09T03:04:34Z"
+  },
+  {
+   "_tags": [
+    "comment",
+    "author_wipaveeknecht",
+    "story_50338728"
+   ],
+   "comment_text": "ChainSecurity | Blockchain Security Engineer | Full-time | INTERNS , HYBRID&#x2F;REMOTE, Zurich, Switzerland | VISA possible (for an employment) | <a href=\"https:&#x2F;&#x2F;chainsecurity.com&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;chainsecurity.com&#x2F;</a><p>ChainSecurity is a young and innovative cybersecurity company that operates in the blockchain and cryptocurrency space. Our mission is to make the blockchain space secure and trustworthy for people, companies, and governments alike. We are proud of our security experts from the renowned universities ETH Zurich, EPFL Lausanne and others.<p>We are trusted by 100+ blockchain companies and established corporations with security audits and services. We have secured complex systems for top blockchain clients, such as decentralized finance (DeFi) projects, and multinational organizations, such as banks and industrial consortia. A ChainSecurity Auditor will review the most complex blockchain projects to find vulnerabilities which no-one else can. By using state of the art tools, expert knowledge and a deep understanding of the fundamentals, we secure projects handling billions, often forming the foundation in the new paradigm of an open financial system.<p>Your Responsibilities:<p>* Work directly with the developers of the most successful teams in the blockchain industry to audit their code and secure their products<p>* Contribute to our security tools and create new ones in collaboration with our internal research team<p>* Conduct security research and publish your findings<p>Requirements:<p>* Strong background in software engineering, focused on security relevant areas and most importantly being able to reason about complex code<p>* Experience with penetration testing, vulnerability scanning, threat modeling or similar is a plus<p>* Good knowledge of cryptography<p>* Proficiency with Linux and Git<p>* Good written communication skills<p>* Fluent in OOP programming language<p>Bonus Points:<p>* Formal Verification, White Box, Vulnerability Scanning<p>* Solid Blockchain Knowledge<p>* Consensus Algorithms<p>Join us here: <a href=\"https:&#x2F;&#x2F;www.chainsecurity.com&#x2F;jobs&#x2F;blockchain-security-engineer&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.chainsecurity.com&#x2F;jobs&#x2F;blockchain-security-engin...</a><p>Questions about the role? Contact: jobs@chainsecurity.com",
+   "created_at": "2026-11-05T15:35:47Z",
+   "created_at_i": 1793892947,
+   "objectID": "50380439",
+   "parent_id": 50338728,
+   "story_id": 50338728,
+   "story_title": "Ask HN: Who is hiring? (November 2026)",
+   "updated_at": "2026-11-09T03:04:07Z"
+  },
+  {
+   "_tags": [
+    "comment",
+    "author_sarahscrutton",
+    "story_50338728"
+   ],
+   "comment_text": "IMC Trading | Machine Learning Engineer | Amsterdam OR London | ONSITE | Full-time<p>IMC is a research-driven trading firm and has been a market maker since 1989. Our researchers, traders and engineers work as one team on systems we build ourselves, trading across global markets.<p>We want ML engineers to shorten the path from a research idea to a live trading strategy. You’ll work with quant researchers, HPC specialists and software engineers in one of two overlapping areas:<p>- ML research engineering: distributed training pipelines, experiment automation, and making training faster and cheaper to run at scale.\n- ML performance engineering: low-latency, real-time inference, and getting the most out of GPUs.<p>Stack includes: PyTorch, CUDA<p>We’re looking for 3+ years of hands-on ML systems work and production Python code you’ve owned over time. You should understand what happens beneath the high-level APIs and measure performance before you optimize. Depth in distributed training, GPU optimization, real-time inference or numerics at scale is a big plus.<p>Apply: <a href=\"https:&#x2F;&#x2F;www.imc.com&#x2F;eu&#x2F;careers&#x2F;jobs&#x2F;4567047101\" rel=\"nofollow\">https:&#x2F;&#x2F;www.imc.com&#x2F;eu&#x2F;careers&#x2F;jobs&#x2F;4567047101</a><p>NB - visa sponsorship available",
+   "created_at": "2026-11-03T14:06:02Z",
+   "created_at_i": 1793714762,
+   "objectID": "50352150",
+   "parent_id": 50338728,
+   "story_id": 50338728,
+   "story_title": "Ask HN: Who is hiring? (November 2026)",
+   "updated_at": "2026-11-09T02:59:49Z"
+  },
+  {
+   "_tags": [
+    "comment",
+    "author_mohsen1",
+    "story_50338728"
+   ],
+   "comment_text": "Proofline | Founding Staff &#x2F; Principal Engineer | REMOTE (Worldwide, Berlin timezone overlap preferred) | Full-time | €120k-€200k + equity | <a href=\"https:&#x2F;&#x2F;proofline.sh&#x2F;careers&#x2F;founding-staff-principal-engineer&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;proofline.sh&#x2F;careers&#x2F;founding-staff-principal-engine...</a><p>Hi HN, I&#x27;m the founder of Proofline. We&#x27;re building an infrastructure-aware AI code reviewer that catches deployment failures before they reach production. Think of it as a type checker for your cloud infrastructure. We analyze code changes against Terraform, live cloud environments, and deployment evidence rather than just reading diffs.<p>We&#x27;re hiring a hands-on Staff &#x2F; Principal Engineer to help us build. You&#x27;ll own core SaaS architecture, cloud integrations, developer tools, and product delivery, with a path toward engineering leadership.<p>Stack: Rust, Go, PostgreSQL, React&#x2F;TypeScript, Terraform, AWS, GCP.<p>We&#x27;re looking for someone with 10+ years of hands-on infrastructure engineering experience, deep SaaS and cloud expertise, extensive use of AI coding agents, and a track record of shipping end to end.<p>Remote globally, flexible hours, regular Berlin visits required. Salary: €120k-€200k depending on experience and location, plus meaningful founding equity. No visa sponsorship.<p>To apply, ship a small feature PR to one of our open-source developer tools and email careers@proofline.sh with the link. If you have 10+ years of relevant experience and an established online presence showcasing your technical work, you can skip the PR and share your best work with us instead.<p>Details: <a href=\"https:&#x2F;&#x2F;proofline.sh&#x2F;careers&#x2F;founding-staff-principal-engineer&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;proofline.sh&#x2F;careers&#x2F;founding-staff-principal-engine...</a>",
+   "created_at": "2026-11-03T11:47:50Z",
+   "created_at_i": 1793706470,
+   "objectID": "50350810",
+   "parent_id": 50338728,
+   "story_id": 50338728,
+   "story_title": "Ask HN: Who is hiring? (November 2026)",
+   "updated_at": "2026-11-15T12:29:10Z"
+  },
+  {
+   "_tags": [
+    "comment",
+    "author_spiksla",
+    "story_50338728"
+   ],
+   "comment_text": "Odoo | Software Developer | Hybrid (Belgium, 3 days&#x2F;week) | Full-time | Visa + €10k Signing Bonus | <a href=\"https:&#x2F;&#x2F;www.odoo.com&#x2F;r&#x2F;4zN\" rel=\"nofollow\">https:&#x2F;&#x2F;www.odoo.com&#x2F;r&#x2F;4zN</a><p>Odoo builds open-source business apps used by millions. We&#x27;re hiring software developers to work on our Python&#x2F;PostgreSQL backend, fast JS framework, mobile apps, website builder, and more.<p>Why join us:<p>- €10k signing bonus - Visa sponsorship + relocation support (contains flight ticket + airport taxi + 1 month free housing) - No clients, no deadlines — just clean, open-source code - Pick your team after 3 weeks of onboarding - Great team, countryside office (with chef!), flexible hours<p>You:<p>- Master a programming language - Proficiency in object-oriented programming - Strong in SQL and relational database, data structures, and DB design - Passionate, autonomous, and eager to build real stuff<p>Apply → <a href=\"https:&#x2F;&#x2F;www.odoo.com&#x2F;r&#x2F;4zN\" rel=\"nofollow\">https:&#x2F;&#x2F;www.odoo.com&#x2F;r&#x2F;4zN</a>",
+   "created_at": "2026-11-03T06:39:23Z",
+   "created_at_i": 1793687963,
+   "objectID": "50348803",
+   "parent_id": 50338728,
+   "story_id": 50338728,
+   "story_title": "Ask HN: Who is hiring? (November 2026)",
+   "updated_at": "2026-11-09T02:50:34Z"
+  },
+  {
+   "_tags": [
+    "comment",
+    "author_christyfthk",
+    "story_50338728"
+   ],
+   "comment_text": "Flow Traders | Research Engineer | Hong Kong | Full Time | Visa | Relocation \nFlow Traders is a leading proprietary trading firm with an entrepreneurial and innovative Tech culture at the heart of its business. We are looking for Research Engineers in our Hong Kong office. Join us build and scale the research framework behind our systematic trading models. You’ll work closely with Quantitative Researchers, drive end‑to‑end ML pipelines, and shape global standards for data‑driven model development. Research Engineers have joint responsibility for conducting research and delivering models. You’ll thrive if you have: - 8+ years in ML &#x2F; Data Science &#x2F; Research Engineering (Postdoc&#x2F;Faculty can count towards this); - Strong Python and libraries such as Ray, numpy, PyTorch, and pandas; - Solid math&#x2F;stats background; - Experience with modern dev practices &amp; cloud technologies. If you&#x27;re interested, apply here: <a href=\"https:&#x2F;&#x2F;www.flowtraders.com&#x2F;careers&#x2F;job-description&#x2F;7431246\" rel=\"nofollow\">https:&#x2F;&#x2F;www.flowtraders.com&#x2F;careers&#x2F;job-description&#x2F;7431246</a><p>Flow Traders | C++ Senior Software Engineer | Hong Kong | Full Time | Visa | Relocation We are looking for a Senior C++ Software Engineer, you&#x27;ll help design and optimize next-generation market data and execution platforms powering systematic trading across hundreds of venues. The role covers high performance market data ingestion and order execution, building and optimizing trading systems. To succeed you will need to have: - 5+ years of C++ experience in HFT&#x2F; financial sector -Strong knowledge in one or more APAC markets If you are interested, apply here: <a href=\"https:&#x2F;&#x2F;www.flowtraders.com&#x2F;careers&#x2F;job-description&#x2F;8212740\" rel=\"nofollow\">https:&#x2F;&#x2F;www.flowtraders.com&#x2F;careers&#x2F;job-description&#x2F;8212740</a><p>Or if you&#x27;d like to see other roles at Flow Traders, please check our careers website: <a href=\"https:&#x2F;&#x2F;flowtraders.com&#x2F;careers&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;flowtraders.com&#x2F;careers&#x2F;</a>",
+   "created_at": "2026-11-03T03:18:22Z",
+   "created_at_i": 1793675902,
+   "objectID": "50347596",
+   "parent_id": 50338728,
+   "story_id": 50338728,
+   "story_title": "Ask HN: Who is hiring? (November 2026)",
+   "updated_at": "2026-11-09T02:29:19Z"
+  },
+  {
+   "_tags": [
+    "comment",
+    "author_ncaroyannis",
+    "story_50338728"
+   ],
+   "comment_text": "Sendery (<a href=\"https:&#x2F;&#x2F;sendery.co\" rel=\"nofollow\">https:&#x2F;&#x2F;sendery.co</a>) | iOS Engineer | Tokyo, Japan (no visa support, US&#x2F;Canada remote available) | Contract<p>Sendery is a transactional email platform built for global teams. We provide developers, designers, and operations with the tools they need to manage their product emails without development overhead.<p>We&#x27;re currently looking for a capable iOS Engineer to join our team on a contract basis to start as we build out our mobile stack. The ideal candidate has 5+ years experience building iOS apps from zero to production (Swift, SwiftUI, UIKit, and modern iOS frameworks), and has worked in a startup environment in the past. Positive experience with AI coding tools is a plus.<p>Applicants who take the time to use the platform and test it out and give their thoughts, will be given priority. We are only hiring applicants in the US, Canada, and Japan at the moment.<p>To apply, please contact jobs@sendery.co (we don&#x27;t respond to other email addresses for job postings) with your resume and github.",
+   "created_at": "2026-11-02T23:35:49Z",
+   "created_at_i": 1793662549,
+   "objectID": "50345770",
+   "parent_id": 50338728,
+   "story_id": 50338728,
+   "story_title": "Ask HN: Who is hiring? (November 2026)",
+   "updated_at": "2026-11-03T12:15:30Z"
+  },
+  {
+   "_tags": [
+    "comment",
+    "author_bshul-silkline1",
+    "story_50338728"
+   ],
+   "comment_text": "Silkline | Software Engineer, Deployment Strategist | Chicago, Seattle | ONSITE | $150k-$225k + equity | <a href=\"https:&#x2F;&#x2F;silkline.ai\" rel=\"nofollow\">https:&#x2F;&#x2F;silkline.ai</a><p>PO #HN-2611\n  Supplier:  you\n  Line 1:    Software Engineer        qty 1\n  Line 2:    Deployment Strategist    qty 1\n  Need-by:   yesterday\n  Status:    AWAITING SUPPLIER ACK<p>Every hardware buyer knows this PO. It goes out, and then nothing happens: no ack, no ship date, just chasing over email while the spreadsheet and the ERP disagree. Silkline is the AI operating system for procurement at companies building satellites, launch vehicles, reactors, and robots (Machina Labs, Astranis, K2 Space, Castelion, Antares). We 5x&#x27;d our customer base, and our customers&#x27; parts can&#x27;t wait.<p>- Software Engineer&#x2F;FDE: 5+ yrs full-stack, 0-1 product, fast with APIs (bonus: ERPs). TypeScript, React, Next.js, GraphQL, Trigger.dev. <a href=\"https:&#x2F;&#x2F;jobs.gem.com&#x2F;silkline&#x2F;am9icG9zdDrLwsEQTKKa02Ut_F9kgzby\" rel=\"nofollow\">https:&#x2F;&#x2F;jobs.gem.com&#x2F;silkline&#x2F;am9icG9zdDrLwsEQTKKa02Ut_F9kgz...</a><p>- Deployment Strategist (new): own customers from signed contract to go-live. Map ERP&#x2F;PLM&#x2F;MES data into Silkline, write the SQL, and find out why the PO isn&#x27;t syncing. Two paths in: ERP&#x2F;MES implementer or forward-deployed engineer. 4+ years; travel to customer sites. <a href=\"https:&#x2F;&#x2F;jobs.gem.com&#x2F;silkline\" rel=\"nofollow\">https:&#x2F;&#x2F;jobs.gem.com&#x2F;silkline</a><p>Both roles touch ITAR-controlled data: US persons only, no visa sponsorship. Small team, direct line to the founders (Isaac and me), plus a space-suited mascot named Silky.<p>Be the supplier who actually acks. Apply above, or email brent+hn@silkline.ai with &quot;PO #HN-2611 ACK&quot; in the subject (mention HN).",
+   "created_at": "2026-11-02T22:24:23Z",
+   "created_at_i": 1793658263,
+   "objectID": "50344816",
+   "parent_id": 50338728,
+   "story_id": 50338728,
+   "story_title": "Ask HN: Who is hiring? (November 2026)",
+   "updated_at": "2026-11-12T17:34:34Z"
+  },
+  {
+   "_tags": [
+    "comment",
+    "author_JulianWasTaken",
+    "story_50338728"
+   ],
+   "comment_text": "Quantum Rise | Chicago IL or Remote (US, Brazil or EU) | Full-time | No visa sponsorship | <a href=\"https:&#x2F;&#x2F;www.quantumrise.com&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.quantumrise.com&#x2F;</a><p>Quantum Rise is an AI-forward consulting startup serving the mid-market in the US and larger enterprises in LATAM. We see companies in multiple industries struggling to understand how to leverage artificial intelligence in their day-to-day operations, trying to understand what their existing workforce now needs to know, or trying to understand whether they&#x27;re about to be disrupted and need to change how their existing processes work. Many have business problems which &quot;traditional&quot; machine learning could help with even prior to the current GenAI hype cycle, but for whatever reason hadn&#x27;t prioritized doing until now. Many have employees looking to incorporate agentic AI safely and effectively across different business areas. We try and help getting a handle around these issues and designing outcome-driven solutions.<p>Agentic AI Engineer: You&#x27;ll work directly with clients to benchmark, train and deploy agentic systems for industry-specific problems. We&#x27;re looking for someone deeply embedded in agentic engineering practice across vendors and platforms. Companies are looking for ways to leverage agentic systems to upskill their practitioners and need help navigating a new, powerful scary world.<p>AI Solutions Engineer: You&#x27;re someone who has experience in traditional machine learning and data science applications in addition to more recent agentic systems.<p>We think of these two roles as complementary -- agentic AI solutioners help clients understand the forefront, whereas pure AI solutioners help them pick and build the right solution even if it isn&#x27;t an LLM.<p>Both are front-facing development roles for someone who loves both tech and tackling real business problems. We love people with prior experience in multiple industries.<p>To apply, send me an email at julian.berman at quantumrise.com, mentioning HN and including your CV.",
+   "created_at": "2026-11-02T22:01:26Z",
+   "created_at_i": 1793656886,
+   "objectID": "50344480",
+   "parent_id": 50338728,
+   "story_id": 50338728,
+   "story_title": "Ask HN: Who is hiring? (November 2026)",
+   "updated_at": "2026-11-03T02:09:29Z"
+  },
+  {
+   "_tags": [
+    "comment",
+    "author_leonzucchini",
+    "story_50338728"
+   ],
+   "comment_text": "Curiosity (<a href=\"https:&#x2F;&#x2F;curiosity.ai\" rel=\"nofollow\">https:&#x2F;&#x2F;curiosity.ai</a>) | Forward Deployed Engineer, DevOps Architect | Toulouse, France | ONSITE | Full-time (CDI) | Visa support<p>Curiosity Studio builds internal apps and agents from a plain description, on a company&#x27;s connected data and inside its permissions. It runs on premises or in a private cloud, with any LLM. We&#x27;re bootstrapped, profitable and based in Munich. Our customers are large industrial and regulated companies, Airbus among them, and Studio has 30TB+ of data connected in production.<p>We are starting a team in Toulouse that works at customer sites, in French and English, along with the engineers who build Studio.<p>Forward Deployed Engineer: take a customer&#x27;s problem from the first workshop to production. You decide with them what Studio should build, connect their systems, model the data as a graph, and oversee the C#&#x2F;.NET connectors and services it needs. You also ship features and agents on top.<p>DevOps Architect: Own deployments in customer environments, from the first technical discussion to handover, on private clouds or data centers. Networking, IAM, Linux, Docker, monitoring, backups, upgrades, incidents. You also write code alongside the forward deployed engineers.<p>We&#x27;re looking for hands-on builders who enjoy working directly with customers. Full-stack project experience preferred. Fluent French and English required.<p>Interviews: a 30 minute call, a technical conversation, then the founders.<p>CV to jobs@curiosity.ai, mention Hacker News. Details: <a href=\"https:&#x2F;&#x2F;curiosity.ai&#x2F;careers&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;curiosity.ai&#x2F;careers&#x2F;</a>",
+   "created_at": "2026-11-02T20:00:06Z",
+   "created_at_i": 1793649606,
+   "objectID": "50342797",
+   "parent_id": 50338728,
+   "story_id": 50338728,
+   "story_title": "Ask HN: Who is hiring? (November 2026)",
+   "updated_at": "2026-11-09T02:29:50Z"
+  },
+  {
+   "_tags": [
+    "comment",
+    "author_bef4itdestroysu",
+    "story_50338728"
+   ],
+   "comment_text": "It looks amazing, do you  guys offer VISA sponsorships ? Or are only interested in US candidates ?",
+   "created_at": "2026-11-02T19:36:00Z",
+   "created_at_i": 1793648160,
+   "objectID": "50342412",
+   "parent_id": 50340419,
+   "story_id": 50338728,
+   "story_title": "Ask HN: Who is hiring? (November 2026)",
+   "updated_at": "2026-11-02T20:00:59Z"
+  },
+  {
+   "_tags": [
+    "comment",
+    "author_danielmofope",
+    "story_50338728"
+   ],
+   "comment_text": "Hello. just applied! do you support visa sponsorship?",
+   "created_at": "2026-11-02T18:14:53Z",
+   "created_at_i": 1793643293,
+   "objectID": "50341070",
+   "parent_id": 50340480,
+   "story_id": 50338728,
+   "story_title": "Ask HN: Who is hiring? (November 2026)",
+   "updated_at": "2026-11-03T11:43:17Z"
+  }
+ ],
+ "nbHits": 15
+}

@@ -1,0 +1,369 @@
+# Defaults. A deployment's config/settings.yaml is deep-merged over this file
+# (dicts merge; lists and scalars replace).
+#
+# Pattern syntax: plain entries match whole words, case-insensitive ("c++" works).
+# "re:<regex>" = case-insensitive regex; "RE:<regex>" = case-sensitive regex.
+
+budget:
+  month_soft_limit: 1400     # minutes this month; above -> tier-1 sources only
+  month_hard_limit: 1700     # above -> exit early with a notice
+  run_time_budget_s: 480     # stop starting new sources after this many seconds
+
+inbox:
+  max_items: 150
+  max_tokens: 60000          # estimate: chars / 4
+  pending_max_age_days: 45
+  detail_fetch_cap: 30       # max per-job detail pages fetched per run (all sources)
+
+seen_months: 6
+
+http:
+  user_agent: "job-radar/0.1 (+https://github.com/zhandosayupov/job-radar)"
+  min_interval_s: 1.0
+  timeout_s: 20
+  retries: 2
+
+health:
+  issue_after_failures: 3
+
+prefilter:
+  title_drop:
+    - intern
+    - interns
+    - internship
+    - apprentice
+    - apprenticeship
+    - graduate
+    - new grad
+    - staff
+    - principal
+    - director
+    - manager
+    - head of
+    - vp
+    - vice president
+    - sales
+    - recruiter
+    - recruiting
+    - hr
+    - trader
+    - "re:стаж[её]р"
+    - стажировка
+    - руководитель
+    - директор
+    - менеджер
+    - "re:head\\b"
+
+  # Exceptions keyed by the title_drop entry they override.
+  title_drop_except:
+    trader: ["Trading Systems", "Quant Developer", "Quantitative Developer"]
+    graduate: ["re:experienced", "re:all levels"]
+    staff: ["Technical Staff"]
+
+  title_require:
+    - software
+    - developer
+    - engineer
+    - engineering
+    - programmer
+    - quant developer
+    - quantitative developer
+    - platform
+    - infrastructure
+    - sre
+    - site reliability
+    - performance
+    - low latency
+    - low-latency
+    - ml engineer
+    - data engineer
+    - backend
+    - back-end
+    - c++
+    - golang
+    - swe
+    - technical staff
+    - "RE:\\bMTS\\b"
+    - "re:разработчи"
+    - "re:программист"
+    - "re:инженер"
+
+  # Dropped only when the job is NOT remote-eligible (remote + allowed or unrestricted
+  # region): a remote job you can do from Kazakhstan needs no visa.
+  text_drop_unless_remote:
+    - "re:\\bno (?:visa )?sponsorship"
+    - "re:\\bno visa (?:support|assistance|help)"
+    - "re:\\b(?:unable|not able|cannot|can ?not|can't|will not|won't|do not|does not|don't|doesn't|are not able|is not able) (?:to )?(?:offer |provide |support )?(?:visa |work permit |immigration )?(?:sponsor|visa assistance|visa support)"
+    - "re:\\bsponsorship (?:is )?not (?:available|offered|provided)"
+    - "re:без (?:визовой )?поддержки"
+
+  # Always dropped.
+  text_drop:
+    - "re:must already (?:have|hold|possess) (?:the |a )?(?:legal )?(?:right|authori[sz]ation|permission) to work"
+    - "re:existing right to work"
+    - "re:\\bU\\.?S\\.? persons? only"
+    - "re:only (?:open to )?U\\.?S\\.? (?:citizens|persons)"
+    - "re:only (?:hire|consider|accept|employ) U\\.?S\\.? (?:citizens|persons)"
+    - "re:security clearance"
+    - "re:\\b(?:TS/SCI|SC|DV) clearance"
+    - "re:гражданств\\w* (?:РФ|России|Российской)"
+    - "re:только (?:для )?граждан\\w* (?:РФ|России)"
+    - "re:резидент\\w* (?:РФ|России)"
+    - "re:только (?:из|в|на территории) (?:РФ|России)"
+    - "re:(?:located|based|reside|residing|resident) in (?:Russia|Belarus)"
+
+  location:
+    # Marks a job as remote (used with allow/deny to decide remote eligibility).
+    remote:
+      - remote
+      - anywhere
+      - worldwide
+      - work from home
+      - wfh
+      - fully distributed
+      - "re:удал[её]нн?"
+      - "re:из любой точки"
+    # Matching any of these keeps the job (checked first).
+    allow:
+      - worldwide
+      - anywhere
+      - global
+      - emea
+      - europe
+      - european
+      - eu
+      - cet
+      - cis
+      - снг
+      - uk
+      - united kingdom
+      - england
+      - scotland
+      - london
+      - edinburgh
+      - manchester
+      - bristol
+      - ireland
+      - dublin
+      - netherlands
+      - amsterdam
+      - rotterdam
+      - utrecht
+      - eindhoven
+      - the hague
+      - germany
+      - berlin
+      - munich
+      - münchen
+      - frankfurt
+      - hamburg
+      - cologne
+      - stuttgart
+      - france
+      - paris
+      - switzerland
+      - zurich
+      - zürich
+      - geneva
+      - zug
+      - basel
+      - lugano
+      - lausanne
+      - austria
+      - vienna
+      - belgium
+      - brussels
+      - luxembourg
+      - spain
+      - madrid
+      - barcelona
+      - valencia
+      - portugal
+      - lisbon
+      - porto
+      - italy
+      - milan
+      - rome
+      - poland
+      - warsaw
+      - krakow
+      - kraków
+      - wroclaw
+      - wrocław
+      - gdansk
+      - czechia
+      - czech republic
+      - prague
+      - slovakia
+      - hungary
+      - budapest
+      - romania
+      - bucharest
+      - bulgaria
+      - sofia
+      - greece
+      - athens
+      - croatia
+      - slovenia
+      - denmark
+      - copenhagen
+      - sweden
+      - stockholm
+      - gothenburg
+      - norway
+      - oslo
+      - finland
+      - helsinki
+      - estonia
+      - tallinn
+      - latvia
+      - riga
+      - lithuania
+      - vilnius
+      - malta
+      - cyprus
+      - limassol
+      - nicosia
+      - larnaca
+      - serbia
+      - belgrade
+      - novi sad
+      - montenegro
+      - tbilisi
+      - batumi
+      - uae
+      - united arab emirates
+      - dubai
+      - abu dhabi
+      - singapore
+      - kazakhstan
+      - almaty
+      - astana
+      - казахстан
+      - алматы
+      - астана
+      - "re:сербия|белград|грузия|тбилиси|кипр|лимассол|дубай|оаэ"
+    # Onsite / residency in Russia or Belarus (when nothing allowed matched).
+    deny_ru_by:
+      - russia
+      - russian federation
+      - belarus
+      - moscow
+      - saint petersburg
+      - st. petersburg
+      - st petersburg
+      - minsk
+      - novosibirsk
+      - yekaterinburg
+      - kazan
+      - nizhny novgorod
+      - innopolis
+      - россия
+      - рф
+      - москва
+      - санкт-петербург
+      - петербург
+      - спб
+      - минск
+      - беларусь
+      - новосибирск
+      - екатеринбург
+      - казань
+      - нижний новгород
+      - иннополис
+    # US / Canada / Australia: dropped unless the posting has visa text.
+    deny_unless_visa:
+      - united states
+      - united states of america
+      - usa
+      - "RE:\\bU\\.?S\\.?A?\\b"
+      - north america
+      - americas
+      - "RE:,\\s*(?:AL|AK|AZ|AR|CA|CO|CT|DE|DC|FL|GA|HI|ID|IL|IN|IA|KS|KY|LA|ME|MD|MA|MI|MN|MS|MO|MT|NE|NV|NH|NJ|NM|NY|NC|ND|OH|OK|OR|PA|RI|SC|SD|TN|TX|UT|VT|VA|WA|WV|WI|WY)\\b"
+      - new york
+      - nyc
+      - chicago
+      - san francisco
+      - bay area
+      - seattle
+      - austin
+      - boston
+      - los angeles
+      - miami
+      - denver
+      - dallas
+      - houston
+      - atlanta
+      - philadelphia
+      - washington
+      - palo alto
+      - mountain view
+      - sunnyvale
+      - san jose
+      - menlo park
+      - redmond
+      - pittsburgh
+      - canada
+      - toronto
+      - montreal
+      - vancouver
+      - australia
+      - sydney
+      - melbourne
+    # Other regions outside the target list.
+    deny_other:
+      - india
+      - bangalore
+      - bengaluru
+      - hyderabad
+      - pune
+      - chennai
+      - mumbai
+      - gurgaon
+      - gurugram
+      - noida
+      - delhi
+      - china
+      - shanghai
+      - beijing
+      - shenzhen
+      - hong kong
+      - taiwan
+      - taipei
+      - japan
+      - tokyo
+      - korea
+      - seoul
+      - philippines
+      - manila
+      - vietnam
+      - viet nam
+      - indonesia
+      - jakarta
+      - malaysia
+      - kuala lumpur
+      - thailand
+      - bangkok
+      - pakistan
+      - brazil
+      - são paulo
+      - sao paulo
+      - mexico
+      - argentina
+      - buenos aires
+      - colombia
+      - bogota
+      - chile
+      - peru
+      - uruguay
+      - latam
+      - latin america
+      - saudi arabia
+      - riyadh
+      - jeddah
+      - khobar
+      - israel
+      - tel aviv
+      - south africa
+      - nigeria
+      - kenya

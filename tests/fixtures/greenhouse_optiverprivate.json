@@ -1,0 +1,223 @@
+{
+ "jobs": [
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/optiverprivate/jobs/6916879002",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": null,
+   "location": {
+    "name": "APAC"
+   },
+   "id": 6916879002,
+   "updated_at": "2026-10-02T14:16:52-04:00",
+   "requisition_id": null,
+   "title": "Software Engineer (Sydney, Shanghai, Singapore)",
+   "company_name": "Optiver Private Jobs",
+   "first_published": "2023-09-01T02:14:53-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;&lt;/p&gt;\n&lt;div class=&quot;WDFG WGEG WFFG&quot;&gt;\n&lt;div class=&quot;WGFG wd-dd11f6d6-0376-4459-b164-64877d381e41&quot;&gt;&lt;strong&gt;WHO WE ARE&lt;/strong&gt;&lt;/div&gt;\n&lt;/div&gt;\n&lt;div id=&quot;56$309310-input&quot; class=&quot;WHFG&quot; data-automation-id=&quot;decorationWrapper&quot;&gt;\n&lt;div class=&quot;WAKJ WBKJ&quot;&gt;\n&lt;div id=&quot;56$309310-input--uid136-input&quot; class=&quot;WHG- WKG- WAJ- WBJ- WHE- WJG- WBAB WIG-&quot; data-automation-id=&quot;richTextEditor&quot; data-metadata-id=&quot;56$309310&quot; data-uxi-widget-editable=&quot;false&quot;&gt;\n&lt;div class=&quot;GWTCKEditor-Disabled&quot;&gt;\n&lt;p&gt;Optiver is a proprietary trading firm and leading global market maker. As one of the oldest market making institutions, we are a trusted partner of 50+ exchanges across the globe. Our mission is to constantly improve the market by injecting liquidity, providing accurate pricing, increasing transparency and acting as a stabilising force no matter the market conditions. With a focus on continuous improvement, we participate in the safeguarding of healthy and efficient markets for everyone who participates.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;br&gt;&lt;strong&gt;WHAT YOU’LL DO&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;As a Software Engineer, you will deliver large bodies of well-engineered code and owning projects that directly impact Optiver’s cutting-edge trading systems. You will collaborate with fellow Engineers, Traders and Researchers to develop a deep understanding of trading, exchanges and what the &#39;machine&#39; is doing. You&#39;re not attached to tools and technologies, you focus on solving problems. Your challenge is to further innovate and maintain the foundation underlying our wider infrastructure. Some other responsibilities include:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Contribute to the design, development and deployment of services that comprise our globally distributed trading platform&lt;/li&gt;\n&lt;li&gt;Build partnerships across the business to ensure we&#39;re feeding the best ideas into our solutions&lt;/li&gt;\n&lt;li&gt;Manage deployments to reduce risk, and provide production support where required&lt;/li&gt;\n&lt;li&gt;Find the simplest, cleanest solutions and continually optimise them&lt;/li&gt;\n&lt;li&gt;Build software that balances complex system performance in a reliable trading environment.&lt;br&gt;&amp;nbsp;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;WHO YOU ARE&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Optiver needs our next Software Engineer to be someone with:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Extensive experience working as a Senior Software Engineer on distributed systems, and mastery of one or more OOP languages (C++, Java, C# or Golang)&lt;/li&gt;\n&lt;li&gt;A passion for solving complex problems with well engineered, fit for purpose, code&lt;/li&gt;\n&lt;li&gt;A solid grasp of Computer Science fundamentals like operating systems, data structures and algorithms&lt;/li&gt;\n&lt;li&gt;Proven ability to work through the full software development lifecycle, from gathering requirements, to testing and deployment&lt;/li&gt;\n&lt;li&gt;Experience making architectural recommendations on IT solutions, design &amp;amp; approach&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;WHAT YOU&#39;LL GET&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;The chance to work alongside diverse, intelligent, and driven peers in a rewarding environment&lt;/li&gt;\n&lt;li&gt;Competitive remuneration, including an attractive bonus structure and additional leave entitlements&lt;/li&gt;\n&lt;li&gt;Training, mentorship and personal development opportunities&lt;/li&gt;\n&lt;li&gt;Gym membership plus weekly in-house chair massages&lt;/li&gt;\n&lt;li&gt;Daily breakfast and lunch facilities&lt;/li&gt;\n&lt;li&gt;Regular social events including an annual company trip&lt;/li&gt;\n&lt;li&gt;A work-from-home allowance and support&lt;/li&gt;\n&lt;li&gt;Guided relocation, a competitive relocation package and visa sponsorship where necessary&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;br&gt;As an intentionally flat organisation, we believe that great ideas and impact can come from everyone. We are passionate about empowering individuals and creating diverse teams that thrive. Every person at Optiver should feel included, valued and respected, because we believe our best work is done together.&lt;br&gt;&lt;br&gt;Our commitment to diversity and inclusion is hardwired through every stage of our hiring process. We encourage applications from candidates from any and all backgrounds, and we welcome requests for reasonable adjustments during the process to ensure that you can best demonstrate your abilities.&lt;/p&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;p&gt;&lt;/p&gt;",
+   "departments": [
+    {
+     "id": 4035444002,
+     "name": "Software",
+     "child_ids": [],
+     "parent_id": 4017842002
+    }
+   ],
+   "offices": [],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": null,
+   "ai_opt_out_request_url": null
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/optiverprivate/jobs/7038301002",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": null,
+   "location": {
+    "name": "Sydney, New South Wales, Australia"
+   },
+   "id": 7038301002,
+   "updated_at": "2026-10-02T14:16:52-04:00",
+   "requisition_id": null,
+   "title": "YOW! Expression of Interest - Software Engineer ",
+   "company_name": "Optiver Private Jobs",
+   "first_published": "2023-11-22T18:41:12-05:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;&lt;/p&gt;\n&lt;div class=&quot;WDFG WGEG WFFG&quot;&gt;\n&lt;div class=&quot;WGFG wd-dd11f6d6-0376-4459-b164-64877d381e41&quot;&gt;&lt;strong&gt;WHO WE ARE&lt;/strong&gt;&lt;/div&gt;\n&lt;/div&gt;\n&lt;div id=&quot;56$309310-input&quot; class=&quot;WHFG&quot; data-automation-id=&quot;decorationWrapper&quot;&gt;\n&lt;div class=&quot;WAKJ WBKJ&quot;&gt;\n&lt;div id=&quot;56$309310-input--uid136-input&quot; class=&quot;WHG- WKG- WAJ- WBJ- WHE- WJG- WBAB WIG-&quot; data-automation-id=&quot;richTextEditor&quot; data-metadata-id=&quot;56$309310&quot; data-uxi-widget-editable=&quot;false&quot;&gt;\n&lt;div class=&quot;GWTCKEditor-Disabled&quot;&gt;\n&lt;p&gt;Optiver is a proprietary trading firm and leading global market maker. As one of the oldest market making institutions, we are a trusted partner of 50+ exchanges across the globe. Our mission is to constantly improve the market by injecting liquidity, providing accurate pricing, increasing transparency and acting as a stabilising force no matter the market conditions. With a focus on continuous improvement, we participate in the safeguarding of healthy and efficient markets for everyone who participates.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;br&gt;&lt;strong&gt;WHAT YOU’LL DO&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;As a Software Engineer, you will deliver large bodies of well-engineered code and owning projects that directly impact Optiver’s cutting-edge trading systems. You will collaborate with fellow Engineers, Traders and Researchers to develop a deep understanding of trading, exchanges and what the &#39;machine&#39; is doing. You&#39;re not attached to tools and technologies, you focus on solving problems. Your challenge is to further innovate and maintain the foundation underlying our wider infrastructure. Some other responsibilities include:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Contribute to the design, development and deployment of services that comprise our globally distributed trading platform&lt;/li&gt;\n&lt;li&gt;Build partnerships across the business to ensure we&#39;re feeding the best ideas into our solutions&lt;/li&gt;\n&lt;li&gt;Manage deployments to reduce risk, and provide production support where required&lt;/li&gt;\n&lt;li&gt;Find the simplest, cleanest solutions and continually optimise them&lt;/li&gt;\n&lt;li&gt;Build software that balances complex system performance in a reliable trading environment.&lt;br&gt;&amp;nbsp;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;WHO YOU ARE&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Optiver needs our next Software Engineer to be someone with:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Extensive experience working as a Senior Software Engineer on distributed systems, and mastery of one or more OOP languages (C++, Java, C# or Golang)&lt;/li&gt;\n&lt;li&gt;A passion for solving complex problems with well engineered, fit for purpose, code&lt;/li&gt;\n&lt;li&gt;A solid grasp of Computer Science fundamentals like operating systems, data structures and algorithms&lt;/li&gt;\n&lt;li&gt;Proven ability to work through the full software development lifecycle, from gathering requirements, to testing and deployment&lt;/li&gt;\n&lt;li&gt;Experience making architectural recommendations on IT solutions, design &amp;amp; approach&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;WHAT YOU&#39;LL GET&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;The chance to work alongside diverse, intelligent, and driven peers in a rewarding environment&lt;/li&gt;\n&lt;li&gt;Competitive remuneration, including an attractive bonus structure and additional leave entitlements&lt;/li&gt;\n&lt;li&gt;Training, mentorship and personal development opportunities&lt;/li&gt;\n&lt;li&gt;Gym membership plus weekly in-house chair massages&lt;/li&gt;\n&lt;li&gt;Daily breakfast and lunch facilities&lt;/li&gt;\n&lt;li&gt;Regular social events including an annual company trip&lt;/li&gt;\n&lt;li&gt;A work-from-home allowance and support&lt;/li&gt;\n&lt;li&gt;Guided relocation, a competitive relocation package and visa sponsorship where necessary&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;br&gt;As an intentionally flat organisation, we believe that great ideas and impact can come from everyone. We are passionate about empowering individuals and creating diverse teams that thrive. Every person at Optiver should feel included, valued and respected, because we believe our best work is done together.&lt;br&gt;&lt;br&gt;Our commitment to diversity and inclusion is hardwired through every stage of our hiring process. We encourage applications from candidates from any and all backgrounds, and we welcome requests for reasonable adjustments during the process to ensure that you can best demonstrate your abilities.&lt;/p&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;/div&gt;\n&lt;p&gt;&lt;/p&gt;",
+   "departments": [
+    {
+     "id": 4035444002,
+     "name": "Software",
+     "child_ids": [],
+     "parent_id": 4017842002
+    }
+   ],
+   "offices": [],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": null,
+   "ai_opt_out_request_url": null
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/optiverprivate/jobs/8375608002",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 6343996002,
+   "location": {
+    "name": "Chicago, Illinois, United States"
+   },
+   "id": 8375608002,
+   "updated_at": "2026-10-02T14:16:52-04:00",
+   "requisition_id": "2599",
+   "title": "FPGA Engineer",
+   "company_name": "Optiver Private Jobs",
+   "first_published": "2026-01-14T20:38:38-05:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;Optiver is looking to add FPGA Engineers to its Automated Trading Systems (ATS) team. ATS solve a variety of problems with high degrees of difficulty: managing scarce bandwidth resources, responding to market events with extremely low latency, and automatically pricing diverse sets of financial instruments with near-zero error tolerance. We build systems with little room for failure which add to the stability of the market, not detract from it. These systems must be simple, flexible, and well-architected so they can quickly be changed to meet the dynamic needs of our traders. We already have a team of great engineers, but we need more.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Optiver Hardware Engineers:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Accelerate network infrastructure and trading system components with high speed hardware designs.&lt;/li&gt;\n&lt;li&gt;Research new low-latency techniques and identify opportunities for integration with our trading system.&lt;/li&gt;\n&lt;li&gt;Work in a multidisciplinary team of traders, software developers, and infrastructure engineers.&lt;/li&gt;\n&lt;li&gt;Leverage the best hardware available, ensuring our FPGAs can interface with cutting edge server hardware.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;What you&#39;ll need:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;A Bachelor’s degree in CE, EE, CS, or related technical field&lt;/li&gt;\n&lt;li&gt;Experience designing FPGAs in VHDL or Verilog. We use VHDL.&lt;/li&gt;\n&lt;li&gt;Experience coding in VHDL, Verilog, SystemVerilog, C, or C++&lt;/li&gt;\n&lt;li&gt;Experience with digital simulators and self-checking test benches a plus&lt;/li&gt;\n&lt;li&gt;Ability to work closely with software developers to rapidly deliver integrated systems.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Who we are:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Optiver is a tech-driven trading firm and leading global market maker. As one of the oldest market making institutions, we are a trusted partner of 70+ exchanges across the globe. Our mission is to constantly improve the market by injecting liquidity, providing accurate pricing, increasing transparency and acting as a stabilising force no matter the market conditions. With a focus on continuous improvement, we participate in the safeguarding of healthy and efficient markets for everyone who participates.&lt;/p&gt;\n&lt;p&gt;Based in ‘The Domain’ neighborhood, Optiver’s Austin office serves as the firm’s innovation nucleus, with a strong focus on quantitative research, software and hardware engineering initiatives. With tech innovation an integral part of our core business, the booming city proved an ideal backdrop for our heavy investment into machine learning, research infrastructure and big data computing. What’s more, with world-class music, food and art scenes, as well as countless scenic outdoor activities, the quality of life for Austin Optiverians is second to none.&lt;/p&gt;\n&lt;div data-font-name=&quot;g_d0_f2&quot; data-angle=&quot;0&quot; data-canvas-width=&quot;135.78000000000003&quot;&gt;&lt;strong&gt;What you’ll get:&lt;/strong&gt;&lt;/div&gt;\n&lt;div data-font-name=&quot;g_d0_f1&quot; data-angle=&quot;0&quot; data-canvas-width=&quot;9.833333333333332&quot;&gt;\n&lt;p&gt;You’ll join a culture of collaboration and excellence, surrounded by curious thinkers and creative problem-solvers. Motivated by a passion for continuous improvement, you’ll thrive in a supportive, high-performing environment alongside talented colleagues, collectively tackling some of the toughest challenges in the financial markets.&lt;/p&gt;\n&lt;p data-renderer-start-pos=&quot;1397&quot;&gt;In addition, you’ll receive:&lt;/p&gt;\n&lt;ul data-indent-level=&quot;1&quot;&gt;\n&lt;li&gt;The opportunity to work alongside best-in-class professionals from over 40 different countries&lt;/li&gt;\n&lt;li&gt;A highly competitive compensation package&lt;/li&gt;\n&lt;li&gt;Global profit-sharing pool and performance-based bonus structure&lt;/li&gt;\n&lt;li&gt;401(k) match up to 50%&lt;/li&gt;\n&lt;li&gt;Comprehensive health, mental, dental, vision, disability, and life coverage&lt;/li&gt;\n&lt;li&gt;25 paid vacation days alongside market holidays&lt;/li&gt;\n&lt;li&gt;Extensive office perks, including breakfast, lunch and snacks, regular social events, clubs, sporting leagues and more&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;Our differences are our edge. Optiver does not discriminate on the basis of race, religion, color, sex, gender identity, sexual orientation, age, physical or mental disability, or other legally protected characteristics.&lt;/p&gt;\n&lt;/div&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p data-prosemirror-content-type=&quot;node&quot; data-prosemirror-node-name=&quot;paragraph&quot; data-prosemirror-node-block=&quot;true&quot; data-pm-slice=&quot;1 1 []&quot;&gt;&lt;em data-prosemirror-content-type=&quot;mark&quot; data-prosemirror-mark-name=&quot;em&quot;&gt;Below is the expected base salary for this position. This is a good-faith estimate of the base pay scale for this position and offers will ultimately be determined based on experience, education, skill set, and performance in the interview process. This position will also be eligible for a discretionary bonus (if determined by Optiver) and Optiver’s benefits package with the benefits listed above.&amp;nbsp;&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;Base Salary Range&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$200,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$200,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;",
+   "departments": [
+    {
+     "id": 4078829002,
+     "name": "Hardware",
+     "child_ids": [],
+     "parent_id": 4017842002
+    }
+   ],
+   "offices": [
+    {
+     "id": 4008341002,
+     "name": "Chicago",
+     "location": "Chicago, Illinois, United States",
+     "child_ids": [],
+     "parent_id": 4040196002
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": null,
+   "ai_opt_out_request_url": null
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/optiverprivate/jobs/6751572002",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "education": "education_required",
+   "internal_job_id": null,
+   "location": {
+    "name": "Singapore"
+   },
+   "id": 6751572002,
+   "updated_at": "2026-10-02T14:16:52-04:00",
+   "requisition_id": null,
+   "title": "NUS ICPC HCMC Participants",
+   "company_name": "Optiver Private Jobs",
+   "first_published": "2023-05-08T22:03:45-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;Thanks for submitting!&lt;/p&gt;",
+   "departments": [
+    {
+     "id": 4067639002,
+     "name": "Trading",
+     "child_ids": [
+      4035401002,
+      4078832002,
+      4067640002,
+      4017841002,
+      4078833002,
+      4078834002,
+      4078835002
+     ],
+     "parent_id": null
+    }
+   ],
+   "offices": [],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": null,
+   "ai_opt_out_request_url": null
+  },
+  {
+   "absolute_url": "https://job-boards.greenhouse.io/optiverprivate/jobs/8402208002",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "education": "education_required",
+   "internal_job_id": 6354368002,
+   "location": {
+    "name": "Chicago, Illinois, United States"
+   },
+   "id": 8402208002,
+   "updated_at": "2026-10-15T12:45:45-04:00",
+   "requisition_id": "2648",
+   "title": "Institutional Trader Intern (2027 Start - Chicago)",
+   "company_name": "Optiver Private Jobs",
+   "first_published": "2026-07-23T09:23:16-04:00",
+   "language": "en",
+   "application_deadline": null,
+   "content": "&lt;p&gt;As an Institutional Trader Intern at Optiver, you’ll spend your summer embedded in the fast-paced environment of our trading floor, learning from industry experts.&lt;/p&gt;\n&lt;p&gt;Through a combination of structured education sessions and hands-on experience in live market conditions, you’ll gain deep insight into how markets move and how our Institutional Traders make impact. You’ll test your ideas, sharpen your decision-making, and collaborate with peers and mentors to solve real market challenges.&lt;/p&gt;\n&lt;p&gt;By the end of the 10-week internship, you’ll be equipped with the foundational skills and knowledge required to succeed as an Institutional Trader at a top global trading firm.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;What you’ll do:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Our internship, which demands quick thinking, a critical mindset, and decisive action, offers one of the closest experiences to real trading you can get. Mentored by the Institutional Trader team, you’ll have the opportunity to:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Deep dive into trading fundamentals, from theoretical concepts to financial markets, trading strategies, and cutting-edge technology.&lt;/li&gt;\n&lt;li&gt;Learn to identify and capitalize on trading opportunities while representing our markets and executing trades with external counterparties.&lt;/li&gt;\n&lt;li&gt;Understand how to expand our external trading network by sourcing, developing, and maintaining trading relationships.&lt;/li&gt;\n&lt;li&gt;Push your limits and accelerate your growth in a fascinating and high-performing environment.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;What you’ll get:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;You’ll join a culture of collaboration and excellence, surrounded by curious thinkers and creative problem-solvers. Motivated by a passion for continuous improvement, you’ll thrive in a supportive, high-performing environment alongside talented colleagues, collectively tackling some of the toughest challenges in the financial markets.&lt;/p&gt;\n&lt;p&gt;In addition, you’ll receive:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;The opportunity to work alongside best-in-class professionals from over 40 different countries&lt;/li&gt;\n&lt;li&gt;The opportunity to earn a full-time offer in Chicago&lt;/li&gt;\n&lt;li&gt;A highly-competitive internship compensation package&lt;/li&gt;\n&lt;li&gt;Optiver-covered flights, living accommodations, and commuting stipends&lt;/li&gt;\n&lt;li&gt;Extensive office perks, including breakfast, lunch and snacks, regular social events, clubs, sporting leagues and more&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Who you are:&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;A student pursuing a bachelor’s or master’s degree in a related STEM field, Business, or Economics&lt;/li&gt;\n&lt;li&gt;On track to graduate between December 2027 to June 2028, with junior standing or higher&lt;/li&gt;\n&lt;li&gt;Strong communication skills and self-assurance&lt;/li&gt;\n&lt;li&gt;Ability and interest in building and maintaining trading relationships and strategic partnerships&lt;/li&gt;\n&lt;li&gt;Superior quantitative and logical reasoning skills&lt;/li&gt;\n&lt;li&gt;Competitive attitude and dedication to constantly improve&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Who we are:&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;At Optiver, our mission is to improve the market by injecting liquidity, providing accurate pricing, increasing transparency and stabilising the market no matter the conditions. With a focus on continuous improvement, we prioritise safeguarding the health and efficiency of the markets for all participants. As one of the largest market making institutions, we are a respected partner on 100+ exchanges across the globe.&lt;/p&gt;\n&lt;p&gt;Our differences are our edge. Optiver does not discriminate on the basis of race, religion, color, sex, gender identity, sexual orientation, age, physical or mental disability, or other legally protected characteristics.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Optiver has a global application re-apply policy for our intern and graduate roles. If you have completed an online assessment or interviewed for a trading graduate or internship role at any Optiver location in the past 8 months, please note that you are not yet eligible to reapply. We welcome you to re-apply to after the 8-month cool off period.&lt;/strong&gt;&lt;/p&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;Below is the expected compensation for this position. This is a good-faith estimate of the base pay scale and sign-on bonus for this position and offers will ultimately be determined based on experience, education, skill set, and performance in the interview process. This position will also be eligible for the benefits listed above.&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;Base Salary Range&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$45,000&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt;&amp;mdash;&lt;/span&gt;&lt;span&gt;$50,000 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;",
+   "departments": [
+    {
+     "id": 4078832002,
+     "name": "Institutional Traders",
+     "child_ids": [],
+     "parent_id": 4067639002
+    }
+   ],
+   "offices": [
+    {
+     "id": 4008341002,
+     "name": "Chicago",
+     "location": "Chicago, Illinois, United States",
+     "child_ids": [],
+     "parent_id": 4040196002
+    }
+   ],
+   "ai_disclaimer": null,
+   "include_ai_disclaimer": null,
+   "ai_opt_out_request_url": null
+  }
+ ],
+ "meta": {
+  "total": 5
+ }
+}
