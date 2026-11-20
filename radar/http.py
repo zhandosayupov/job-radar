@@ -5,14 +5,16 @@ from __future__ import annotations
 
 import re
 import time
-import urllib.robotparser
 from collections import Counter
 from typing import Callable
 from urllib.parse import urlsplit
 
 import httpx
 
+from .robots import Robots
+
 ROBOTS_TOKEN = "job-radar"
+MAX_CRAWL_DELAY_S = 30.0  # honor Crawl-delay up to this; beyond it the source is just slow
 CHALLENGE_TITLES = ("just a moment", "attention required", "captcha", "are you a robot", "access denied", "verify you are human")
 _TITLE_RE = re.compile(r"<title[^>]*>(.*?)</title>", re.I | re.S)
 
@@ -64,7 +66,8 @@ class Http:
             transport=transport,
         )
         self._last: dict[str, float] = {}
-        self._robots: dict[str, urllib.robotparser.RobotFileParser | None] = {}
+        self._robots: dict[str, Robots | None] = {}
+        self._interval: dict[str, float] = {}  # per-host, raised by Crawl-delay
         self.requests: Counter[str] = Counter()
 
     def close(self) -> None:
@@ -75,7 +78,7 @@ class Http:
     def _throttle(self, host: str) -> None:
         last = self._last.get(host)
         if last is not None:
-            wait = self.min_interval_s - (self.clock() - last)
+            wait = self._interval.get(host, self.min_interval_s) - (self.clock() - last)
             if wait > 0:
                 self.sleep(wait)
         self._last[host] = self.clock()
@@ -99,7 +102,7 @@ class Http:
             attempt += 1
             self.sleep(self.backoff_s * attempt)
 
-    def _robots_for(self, url: str) -> urllib.robotparser.RobotFileParser | None:
+    def _robots_for(self, url: str) -> Robots | None:
         parts = urlsplit(url)
         key = f"{parts.scheme}://{parts.netloc.lower()}"
         if key in self._robots:
@@ -109,10 +112,12 @@ class Http:
         except FetchError:
             # RFC 9309: unreachable robots.txt -> assume complete disallow.
             raise Blocked(f"robots.txt unreachable on {parts.netloc}") from None
-        rp: urllib.robotparser.RobotFileParser | None = None
+        rp: Robots | None = None
         if resp.status_code == 200:
-            rp = urllib.robotparser.RobotFileParser()
-            rp.parse(resp.text.splitlines())
+            rp = Robots(resp.text, ROBOTS_TOKEN)
+            if rp.crawl_delay:
+                host = parts.netloc.lower()
+                self._interval[host] = max(self.min_interval_s, min(rp.crawl_delay, MAX_CRAWL_DELAY_S))
         # RFC 9309: 4xx -> no restrictions.
         self._robots[key] = rp
         return rp
@@ -123,7 +128,7 @@ class Http:
         if self.respect_robots:
             rp = self._robots_for(url)
             full = str(httpx.URL(url, params=params)) if params else url
-            if rp is not None and not rp.can_fetch(ROBOTS_TOKEN, full):
+            if rp is not None and not rp.can_fetch(full):
                 raise Blocked(f"robots.txt disallows {urlsplit(url).path}")
         resp = self._raw_get(url, params)
         host = urlsplit(url).netloc
