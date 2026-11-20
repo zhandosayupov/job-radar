@@ -34,8 +34,9 @@ class Alerter:
         self.attempts = attempts
         self.backoff_s = backoff_s
         self.sleep = sleep or time.sleep
-        self.token = token if token is not None else os.environ.get("RADAR_TG_BOT_TOKEN", "")
-        self.chat_id = chat_id if chat_id is not None else os.environ.get("RADAR_TG_CHAT_ID", "")
+        # strip(): secrets pasted into a web form often carry a trailing newline
+        self.token = (token if token is not None else os.environ.get("RADAR_TG_BOT_TOKEN", "")).strip()
+        self.chat_id = (chat_id if chat_id is not None else os.environ.get("RADAR_TG_CHAT_ID", "")).strip()
         self.transport = transport
         self.last_error: str | None = None
 

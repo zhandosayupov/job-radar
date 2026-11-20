@@ -190,3 +190,11 @@ def test_cli_strict_fails_on_delivery_error(monkeypatch, capsys):
     assert alerts_main(["--text", "x"]) == 0
     assert alerts_main(["--text", "x", "--strict"]) == 1
     assert TOKEN not in capsys.readouterr().out
+
+
+def test_secrets_whitespace_is_stripped(monkeypatch):
+    monkeypatch.setenv("RADAR_TG_BOT_TOKEN", TOKEN + "\n")
+    monkeypatch.setenv("RADAR_TG_CHAT_ID", " 42 \r\n")
+    a = Alerter()
+    assert a.token == TOKEN and a.chat_id == "42"
+
