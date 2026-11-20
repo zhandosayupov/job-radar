@@ -103,3 +103,13 @@ def test_cli_without_secrets_is_noop(monkeypatch, capsys):
     monkeypatch.delenv("RADAR_TG_BOT_TOKEN", raising=False)
     assert alerts_main(["--text", "x"]) == 0
     assert "not configured" in capsys.readouterr().out
+    assert alerts_main(["--text", "x", "--strict"]) == 1
+
+
+def test_cli_strict_fails_on_delivery_error(monkeypatch, capsys):
+    monkeypatch.setenv("RADAR_TG_BOT_TOKEN", TOKEN)
+    monkeypatch.setenv("RADAR_TG_CHAT_ID", "42")
+    monkeypatch.setattr(Alerter, "send", lambda self, text: False)
+    assert alerts_main(["--text", "x"]) == 0
+    assert alerts_main(["--text", "x", "--strict"]) == 1
+    assert TOKEN not in capsys.readouterr().out

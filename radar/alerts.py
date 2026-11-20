@@ -73,14 +73,15 @@ def format_events(events: list[Event], run_url: str | None = None) -> str | None
 def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--text", required=True)
+    ap.add_argument("--strict", action="store_true", help="exit 1 if not configured or not delivered")
     args = ap.parse_args(argv)
     a = Alerter()
     if not a.enabled:
         print("alerts: not configured, skipped")
-        return 0
+        return 1 if args.strict else 0
     ok = a.send(args.text)
     print("alerts: sent" if ok else f"alerts: failed ({a.last_error})")
-    return 0
+    return 0 if ok or not args.strict else 1
 
 
 if __name__ == "__main__":
