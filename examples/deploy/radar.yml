@@ -41,7 +41,8 @@ jobs:
         env:
           RADAR_TG_BOT_TOKEN: ${{ secrets.RADAR_TG_BOT_TOKEN }}
           RADAR_TG_CHAT_ID: ${{ secrets.RADAR_TG_CHAT_ID }}
-        run: python -m radar.alerts --strict --text "✅ job-radar: test alert from $GITHUB_REPOSITORY run $GITHUB_RUN_NUMBER"
+        run: |
+          python -m radar.alerts --strict --text "✅ job-radar: test alert from $GITHUB_REPOSITORY run $GITHUB_RUN_NUMBER"
       - name: Run radar
         env:
           RADAR_TG_BOT_TOKEN: ${{ secrets.RADAR_TG_BOT_TOKEN }}
