@@ -2,7 +2,8 @@ import httpx
 import pytest
 
 from radar import health
-from radar.alerts import Alerter, format_events, main as alerts_main
+from radar.alerts import Alerter, format_events, format_run_message, should_send
+from radar.alerts import main as alerts_main
 
 TOKEN = "123456789:AAAbbbCCCdddEEEfffGGGhhhIIIjjjKKKlll"
 
@@ -97,6 +98,52 @@ def test_format_events():
     text = format_events(ev, "https://github.com/x/y/actions/runs/1")
     assert "🔴 hn: broke (blocked) — HTTP 403" in text and "🟢 wwr: recovered" in text and text.endswith("/runs/1")
     assert format_events([]) is None
+
+
+MANIFEST = {
+    "mode": "full",
+    "new_total": 155,
+    "kept_total": 45,
+    "pending_count": 45,
+    "overflow": 3,
+    "removed_labeled": 2,
+    "dropped_by_rule": {"title_excluded": 40, "location_na_au": 37},
+    "sources": {
+        "greenhouse": {"status": "ok", "fetched": 84, "new": 84, "kept": 16},
+        "hn": {"status": "blocked", "fetched": 0, "new": 0, "kept": 0, "detail": "story: HTTP 403 on hn.algolia.com"},
+    },
+    "this_run_minutes": 1,
+    "month_minutes_used": 7,
+}
+
+
+def test_run_message_contents():
+    top = [{"company": "IMC", "title": "Performance Engineer", "location_text": "Amsterdam, Netherlands"}]
+    ev = [health.Event("hn", "broke", "blocked", "HTTP 403")]
+    text = format_run_message(MANIFEST, ev, top, "https://github.com/x/y/actions/runs/1", 2000)
+    assert text.startswith("⚠️ source health changed:\n🔴 hn: broke (blocked) — HTTP 403")
+    assert "📡 job-radar: 155 new, 45 kept → inbox 45 (+3 overflow)" in text
+    assert "✅ greenhouse: 84 fetched, 84 new, 16 kept" in text
+    assert "🔴 hn: 0 fetched, 0 new, 0 kept — story: HTTP 403" in text
+    assert "dropped: title 40, US/CA/AU 37" in text
+    assert "left pending: labeled 2" in text
+    assert "• IMC — Performance Engineer (Amsterdam, Netherlands)" in text
+    assert "⏱ 1 min · month 7/2000" in text and text.endswith("/runs/1")
+
+
+@pytest.mark.parametrize(
+    "mode,kept,events,expected",
+    [
+        ("always", 0, False, True),
+        ("on_new", 0, False, False),
+        ("on_new", 3, False, True),
+        ("off", 3, False, False),
+        ("off", 0, True, True),  # health changes are always sent
+    ],
+)
+def test_should_send(mode, kept, events, expected):
+    ev = [health.Event("s", "broke", "error")] if events else []
+    assert should_send(mode, {"kept_total": kept}, ev) is expected
 
 
 def test_cli_without_secrets_is_noop(monkeypatch, capsys):

@@ -35,8 +35,12 @@ Without `--config`, the packaged defaults in `radar/defaults/` are used.
 ## Pipeline
 budget guard → label ingestion (labeled ids leave pending) → fetch (each source isolated;
 one failing source never stops the run) → seen check → prefilter → cross-source dedupe
-(ATS beats aggregator beats community) → closures → inbox cap (150 items / ~60k tokens,
-newest first; the rest stays in `overflow.jsonl`) → manifest, health, alerts → usage.
+(ATS beats aggregator beats community) → closures → inbox cap (150 items / ~90k tokens,
+newest first; the rest stays in `overflow.jsonl`) → manifest, health, usage → Telegram summary.
+
+Each inbox item carries the cleaned **full description** as `text` (up to
+`inbox.text_chars`, default 8000; legal boilerplate removed, benefits kept), plus a short
+prioritized `excerpt`, so the labeler can decide without opening the page.
 
 ## Adding a company or a source
 - **Company on a supported ATS:** add one line to `config/companies.yaml`:
@@ -87,8 +91,10 @@ and don't count against the limit.
 | `skipped` | budget limit or run-time budget reached | – |
 
 ## Alerts (Telegram bot)
-Set the `RADAR_TG_BOT_TOKEN` and `RADAR_TG_CHAT_ID` secrets in the private repo. Each
-run compares every source with its previous run and sends one message when a source
+Set the `RADAR_TG_BOT_TOKEN` and `RADAR_TG_CHAT_ID` secrets in the private repo. After
+each run the bot sends a summary: new/kept/inbox counts, per-source status, drops per
+rule, the newest kept jobs, and minutes used (`alerts.summary`: `always` | `on_new` | `off`). Each
+run also compares every source with its previous run and sends one message when a source
 **broke** (ok → blocked/error), **degraded** (ok → partial), went **empty** (ok with
 items → 0 items, a silent breakage) or **recovered**. A failed workflow run also sends
 an alert. Without the secrets, alerting is a no-op. Errors are reported without the

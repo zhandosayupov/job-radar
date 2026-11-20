@@ -21,11 +21,11 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from . import budget, health
-from .alerts import Alerter, format_events
+from .alerts import Alerter, format_run_message, should_send
 from .config import load_config
 from .dedupe import KIND_RANK, merge
 from .http import Http
-from .inbox import expire, split_inbox
+from .inbox import expire, sort_key, split_inbox
 from .models import Job
 from .prefilter import Prefilter
 from .sources import REGISTRY, build_sources
@@ -111,6 +111,11 @@ def run(
         if not dry_run:
             store.save("inbox/manifest.json", manifest)
             budget.record_run(store, started, datetime.now(timezone.utc), mode)
+            if settings.get("alerts", {}).get("summary", "always") != "off":
+                (alerter or Alerter()).send(
+                    f"⏸ job-radar: budget hard limit reached ({usage.get('total_minutes')} min this month); "
+                    "no sources fetched until next month or until the limit is raised."
+                )
         report.manifest = manifest
         return report
 
@@ -137,6 +142,7 @@ def run(
         )
     ctx = RunContext(now_iso=now_iso, settings=settings, companies=cfg["companies"].get("companies", []), cursors=cursors)
     prefilter = Prefilter(settings)
+    text_chars = int(inbox_cfg.get("text_chars", 8000))
     run_budget_s = float(settings.get("budget", {}).get("run_time_budget_s", 480))
     new_items: list[dict] = []
     new_ids: set[str] = set()
@@ -165,7 +171,7 @@ def run(
                 n_new += 1
                 d = prefilter.check(job)
                 if d.keep:
-                    new_items.append(job.inbox_dict())
+                    new_items.append(job.inbox_dict(text_chars))
                 else:
                     drops[d.rule or "?"] += 1
                     dropped_rows.append(_dropped_row(job, d.rule or "?", d.detail))
@@ -238,21 +244,27 @@ def run(
     if closed_ids:
         store.append_closed(closed_ids, now)
 
-    text = format_events(events, _run_url())
-    if text and not dry_run:
-        alerter = alerter or Alerter()
-        sent = alerter.send(text)
-        why = "sent" if sent else f"not sent ({alerter.last_error or 'not configured'})"
-        log(f"alerts: {len(events)} event(s), {why}")
-    elif text:
-        log("alerts (dry-run, not sent):\n" + text)
-
     if not dry_run:
         usage = budget.record_run(store, started, datetime.now(timezone.utc), mode)
         manifest["month_minutes_used"] = usage["total_minutes"]
         manifest["this_run_minutes"] = usage["runs"][-1]["minutes_rounded_up"]
     store.save("inbox/manifest.json", manifest)
     report.manifest = manifest
+
+    # --- telegram: per-run summary + health events -------------------------------------
+    acfg = settings.get("alerts", {})
+    if should_send(str(acfg.get("summary", "always")), manifest, events):
+        top = sorted(new_items, key=sort_key, reverse=True)[: int(acfg.get("summary_top", 5))]
+        text = format_run_message(
+            manifest, events, top, _run_url(), int(settings.get("budget", {}).get("month_included", 2000))
+        )
+        if dry_run:
+            log("telegram (dry-run, not sent):\n" + text)
+        else:
+            alerter = alerter or Alerter()
+            sent = alerter.send(text)
+            why = "sent" if sent else f"not sent ({alerter.last_error or 'not configured'})"
+            log(f"telegram: summary {why}" + (f", {len(events)} health event(s)" if events else ""))
     return report
 
 

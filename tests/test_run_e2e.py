@@ -50,6 +50,10 @@ def test_first_run_produces_inbox_and_manifest(tmp_path):
     pending = read_jsonl(data / "inbox" / "pending.jsonl")
     assert len(pending) == m["pending_count"] == rep.pending_count > 0
     assert all("description" not in p for p in pending)
+    assert all(list(p)[-1] == "text" for p in pending)  # full text is the last key
+    gh = [p for p in pending if p["source"] == "greenhouse"]
+    assert gh and all(p["text"] and len(p["text"]) > len(p["excerpt"] or "") for p in gh)
+    assert m["inbox_tokens_est"] <= 90000
     assert all(p["url"].startswith("https://") for p in pending)
     assert m["this_run_minutes"] >= 1 and (data / "usage" / "2026-11.json").exists()
     assert (data / "inbox" / "dropped_last.jsonl").exists()
@@ -191,3 +195,50 @@ def test_cli_writes_commit_message(tmp_path, monkeypatch):
     run_main(["--config", str(cfg), "--data", str(data), "--commit-msg-file", str(msg_file)])
     msg = msg_file.read_text(encoding="utf-8")
     assert msg.startswith("radar: ") and msg.endswith("[skip ci]") and " new, " in msg
+
+
+def test_text_chars_zero_disables_full_text(tmp_path):
+    cfg = write_cfg(tmp_path, settings={"inbox": {"text_chars": 0}})
+    data = tmp_path / "data"
+    go(cfg, data)
+    assert all("text" not in p for p in read_jsonl(data / "inbox" / "pending.jsonl"))
+
+
+def test_summary_sent_every_run_by_default(tmp_path):
+    cfg, data = write_cfg(tmp_path), tmp_path / "data"
+    a = FakeAlerter()
+    go(cfg, data, alerter=a)
+    go(cfg, data, alerter=a)
+    assert len(a.sent) == 2
+    assert a.sent[0].startswith("📡 job-radar: ") and "top new:" in a.sent[0]
+    assert "📡 job-radar: 0 new, 0 kept" in a.sent[1] and "top new:" not in a.sent[1]
+    assert "⏱ " in a.sent[0] and "month " in a.sent[0]
+
+
+def test_summary_on_new_skips_quiet_runs(tmp_path):
+    cfg = write_cfg(tmp_path, settings={"alerts": {"summary": "on_new"}})
+    data = tmp_path / "data"
+    a = FakeAlerter()
+    go(cfg, data, alerter=a)
+    go(cfg, data, alerter=a)
+    assert len(a.sent) == 1
+
+
+def test_summary_off_still_sends_health_events(tmp_path):
+    cfg = write_cfg(tmp_path, settings={"alerts": {"summary": "off"}})
+    data = tmp_path / "data"
+    a = FakeAlerter()
+    go(cfg, data, alerter=a)
+    r = default_router()
+    r.add("https://hn.algolia.com/api/v1/search_by_date", status=403)
+    go(cfg, data, router=r, alerter=a)
+    assert len(a.sent) == 1 and "hn: broke" in a.sent[0]
+
+
+def test_budget_hard_limit_notifies(tmp_path):
+    cfg, data = write_cfg(tmp_path), tmp_path / "data"
+    (data / "usage").mkdir(parents=True)
+    (data / "usage" / "2026-11.json").write_text(json.dumps({"runs": [], "total_minutes": 1800}), encoding="utf-8")
+    a = FakeAlerter()
+    go(cfg, data, alerter=a)
+    assert len(a.sent) == 1 and "budget hard limit" in a.sent[0]

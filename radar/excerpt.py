@@ -73,3 +73,34 @@ def build_excerpt(text: str | None, limit: int = 700) -> str | None:
     if not chosen:
         return None
     return " ".join(chosen)
+
+
+# Legal/HR boilerplate only. Benefits stay: they often carry relocation/visa/comp signal.
+LEGAL_BOILERPLATE = re.compile(
+    r"equal (?:employment )?opportunity|\beeo\b|affirmative action|gender identity|sexual orientation|"
+    r"protected veteran|veteran status|national origin|genetic information|reasonable accommodation|"
+    r"privacy (?:notice|policy|statement)|personal data (?:will be )?process|data protection|gdpr|"
+    r"recruitment agenc|unsolicited (?:resumes|cvs)|e-verify|pay transparency",
+    re.I,
+)
+
+
+def full_text(text: str | None, limit: int = 8000) -> str | None:
+    """Whole description for the labeler (so it never needs to open the page): plain text,
+    line structure kept, legal boilerplate lines dropped, capped at `limit` chars."""
+    if not text:
+        return None
+    lines = []
+    for line in text.split("\n"):
+        line = line.strip()
+        if not line:
+            continue
+        if LEGAL_BOILERPLATE.search(line):
+            # Drop only the boilerplate sentences of a mixed line.
+            kept = [s for s in split_sentences(line) if not LEGAL_BOILERPLATE.search(s)]
+            if not kept:
+                continue
+            line = " ".join(kept)
+        lines.append(line)
+    out = "\n".join(lines)
+    return clip(out, limit) or None

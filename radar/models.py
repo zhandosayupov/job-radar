@@ -7,7 +7,7 @@ from typing import Literal
 from pydantic import BaseModel, Field, field_validator
 
 from . import text as T
-from .excerpt import build_excerpt
+from .excerpt import build_excerpt, full_text
 
 SourceStatus = Literal["ok", "partial", "blocked", "error", "skipped"]
 
@@ -90,5 +90,10 @@ class Job(BaseModel):
             description=desc,
         )
 
-    def inbox_dict(self) -> dict:
-        return self.model_dump(mode="json")
+    def inbox_dict(self, text_chars: int = 0) -> dict:
+        """Serialized inbox item. With text_chars > 0 the cleaned full description is
+        included as `text` (last key), so the labeler can decide without opening the page."""
+        d = self.model_dump(mode="json")
+        if text_chars > 0:
+            d["text"] = full_text(self.description, text_chars)
+        return d

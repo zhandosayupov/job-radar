@@ -70,6 +70,80 @@ def format_events(events: list[Event], run_url: str | None = None) -> str | None
     return "\n".join(lines)
 
 
+STATUS_ICON = {"ok": "✅", "partial": "🟠", "blocked": "🔴", "error": "🔴", "skipped": "⏸"}
+RULE_LABEL = {
+    "title_excluded": "title",
+    "title_not_eng": "not-eng",
+    "text_excluded": "text",
+    "no_sponsorship": "no-sponsor",
+    "location_ru_by": "RU/BY",
+    "location_na_au": "US/CA/AU",
+    "location_other": "other-region",
+}
+
+
+def should_send(mode: str, manifest: dict, events: list[Event]) -> bool:
+    """mode: always | on_new | off. Health events are always sent."""
+    if events:
+        return True
+    if mode == "always":
+        return True
+    if mode == "on_new":
+        return manifest.get("kept_total", 0) > 0
+    return False
+
+
+def format_run_message(
+    manifest: dict,
+    events: list[Event],
+    top_items: list[dict],
+    run_url: str | None = None,
+    month_included: int = 2000,
+) -> str:
+    m = manifest
+    lines: list[str] = []
+    if events:
+        lines.append("⚠️ source health changed:")
+        for e in events:
+            d = f" — {e.detail[:150]}" if e.detail else ""
+            lines.append(f"{ICONS.get(e.kind, '•')} {e.source}: {e.kind} ({e.status}){d}")
+        lines.append("")
+    head = f"📡 job-radar: {m.get('new_total', 0)} new, {m.get('kept_total', 0)} kept → inbox {m.get('pending_count', 0)}"
+    if m.get("overflow"):
+        head += f" (+{m['overflow']} overflow)"
+    lines.append(head)
+    if m.get("mode") not in (None, "full"):
+        lines.append(f"budget mode: {m['mode']}")
+    for name, s in (m.get("sources") or {}).items():
+        icon = STATUS_ICON.get(s.get("status"), "•")
+        kept = s.get("kept", 0)
+        line = f"{icon} {name}: {s.get('fetched', 0)} fetched, {s.get('new', 0)} new, {kept} kept"
+        if s.get("status") not in ("ok",) and s.get("detail"):
+            line += f" — {s['detail'][:120]}"
+        lines.append(line)
+    drops = m.get("dropped_by_rule") or {}
+    if drops:
+        parts = [f"{RULE_LABEL.get(k, k)} {v}" for k, v in sorted(drops.items(), key=lambda kv: -kv[1])]
+        lines.append("dropped: " + ", ".join(parts))
+    extra = [f"{k.replace('removed_', '').replace('_', ' ')} {m[k]}" for k in ("removed_labeled", "removed_closed", "expired") if m.get(k)]
+    if extra:
+        lines.append("left pending: " + ", ".join(extra))
+    if top_items:
+        lines.append("")
+        lines.append("top new:")
+        for it in top_items:
+            where = it.get("location_text") or it.get("remote_text") or ""
+            where = f" ({where[:40]})" if where else ""
+            lines.append(f"• {it.get('company', '')[:30]} — {it.get('title', '')[:70]}{where}")
+    lines.append("")
+    minutes = m.get("this_run_minutes")
+    used = m.get("month_minutes_used", 0)
+    lines.append(f"⏱ {minutes if minutes is not None else '?'} min · month {used}/{month_included}")
+    if run_url:
+        lines.append(run_url)
+    return "\n".join(lines)
+
+
 def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--text", required=True)

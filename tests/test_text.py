@@ -104,3 +104,27 @@ def test_excerpt_limit_and_empty():
     assert len(build_excerpt(long)) <= 700
     assert build_excerpt(None) is None
     assert build_excerpt("Nothing relevant at all here") is None
+
+
+# --- full text --------------------------------------------------------------------
+
+from radar.excerpt import full_text  # noqa: E402
+
+
+def test_full_text_keeps_content_drops_legal_boilerplate():
+    t = (
+        "About the role\nYou will build low-latency C++ systems.\n"
+        "We offer a relocation package and visa sponsorship.\n"
+        "We are an equal opportunity employer. Apply by Friday.\n"
+        "Read our privacy notice before applying."
+    )
+    out = full_text(t)
+    assert "low-latency C++" in out and "relocation package" in out  # benefits kept
+    assert "equal opportunity" not in out and "privacy notice" not in out
+    assert "Apply by Friday." in out  # rest of a mixed line survives
+    assert out.count("\n") == 3
+
+
+def test_full_text_cap_and_empty():
+    assert len(full_text("word " * 5000, 8000)) <= 8000
+    assert full_text(None) is None and full_text("") is None

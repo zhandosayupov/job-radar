@@ -7,11 +7,13 @@
 budget:
   month_soft_limit: 1400     # minutes this month; above -> tier-1 sources only
   month_hard_limit: 1700     # above -> exit early with a notice
+  month_included: 2000       # GitHub Free private-repo minutes (shown in the summary)
   run_time_budget_s: 480     # stop starting new sources after this many seconds
 
 inbox:
   max_items: 150
-  max_tokens: 60000          # estimate: chars / 4
+  max_tokens: 90000          # estimate: chars / 4; keeps one labeler call under the 100K-token price step (rest waits in overflow)
+  text_chars: 8000           # full description per item (`text`); 0 = excerpt only
   pending_max_age_days: 45
   detail_fetch_cap: 30       # max per-job detail pages fetched per run (all sources)
 
@@ -25,6 +27,12 @@ http:
 
 health:
   issue_after_failures: 3
+
+# Telegram bot (secrets RADAR_TG_BOT_TOKEN / RADAR_TG_CHAT_ID). Health changes
+# (broke/degraded/empty/recovered) are always sent; the run summary depends on `summary`.
+alerts:
+  summary: always            # always | on_new (only when something new passed the filter) | off
+  summary_top: 5             # newest kept items listed in the summary
 
 prefilter:
   title_drop:
