@@ -68,7 +68,7 @@ jobs:
           RADAR_TG_CHAT_ID: ${{ secrets.RADAR_TG_CHAT_ID }}
         run: |
           if [ -z "$RADAR_TG_BOT_TOKEN" ] || [ -z "$RADAR_TG_CHAT_ID" ]; then echo "alerts not configured"; exit 0; fi
-          code=$(curl -s -o /dev/null -w "%{http_code}" \
+          code=$(curl -s -o /dev/null -w "%{http_code}" --max-time 20 --retry 3 --retry-delay 5 --retry-all-errors \
             --data-urlencode "chat_id=$RADAR_TG_CHAT_ID" \
             --data-urlencode "text=🔴 job-radar run FAILED: $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID" \
             "https://api.telegram.org/bot${RADAR_TG_BOT_TOKEN}/sendMessage")

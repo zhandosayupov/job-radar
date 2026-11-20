@@ -12,6 +12,7 @@ from __future__ import annotations
 import argparse
 import os
 import sys
+import time
 
 import httpx
 
@@ -26,7 +27,13 @@ class Alerter:
         token: str | None = None,
         chat_id: str | None = None,
         transport: httpx.BaseTransport | None = None,
+        attempts: int = 3,
+        backoff_s: float = 5.0,
+        sleep=None,
     ):
+        self.attempts = attempts
+        self.backoff_s = backoff_s
+        self.sleep = sleep or time.sleep
         self.token = token if token is not None else os.environ.get("RADAR_TG_BOT_TOKEN", "")
         self.chat_id = chat_id if chat_id is not None else os.environ.get("RADAR_TG_CHAT_ID", "")
         self.transport = transport
@@ -44,24 +51,44 @@ class Alerter:
         alerts that need attention are sent with sound."""
         if not self.enabled:
             return False
+        payload = {
+            "chat_id": self.chat_id,
+            "text": text[:4000],
+            "disable_web_page_preview": True,
+            "disable_notification": silent,
+        }
+        for attempt in range(1, self.attempts + 1):
+            retry_after = self.backoff_s * attempt
+            try:
+                with httpx.Client(timeout=20, transport=self.transport) as c:
+                    r = c.post(f"https://api.telegram.org/bot{self.token}/sendMessage", json=payload)
+                if r.status_code == 200:
+                    self.last_error = None
+                    return True
+                self.last_error = f"telegram HTTP {r.status_code}" + self._description(r)
+                if r.status_code == 429:
+                    retry_after = self._retry_after(r, retry_after)
+                elif r.status_code < 500:
+                    return False  # bad token / chat id / bot blocked: retrying won't help
+            except Exception as e:  # never let alerting break a run; never echo the URL
+                self.last_error = self._mask(f"telegram {type(e).__name__}")
+            if attempt < self.attempts:
+                self.sleep(retry_after)
+        return False
+
+    def _description(self, r: httpx.Response) -> str:
         try:
-            with httpx.Client(timeout=15, transport=self.transport) as c:
-                r = c.post(
-                    f"https://api.telegram.org/bot{self.token}/sendMessage",
-                    json={
-                        "chat_id": self.chat_id,
-                        "text": text[:4000],
-                        "disable_web_page_preview": True,
-                        "disable_notification": silent,
-                    },
-                )
-            if r.status_code != 200:
-                self.last_error = f"telegram HTTP {r.status_code}"
-                return False
-            return True
-        except Exception as e:  # never let alerting break a run; never echo the URL
-            self.last_error = self._mask(f"telegram {type(e).__name__}")
-            return False
+            d = r.json().get("description")
+        except Exception:
+            return ""
+        return f": {self._mask(str(d))[:120]}" if d else ""
+
+    @staticmethod
+    def _retry_after(r: httpx.Response, default: float) -> float:
+        try:
+            return min(float(r.json()["parameters"]["retry_after"]), 60.0)
+        except Exception:
+            return default
 
 
 def format_events(events: list[Event], run_url: str | None = None) -> str | None:

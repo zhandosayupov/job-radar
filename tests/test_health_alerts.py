@@ -91,9 +91,36 @@ def test_alerter_errors_never_leak_token(mode):
             raise httpx.ConnectError(f"cannot connect to {req.url}")
         return httpx.Response(500)
 
-    a = Alerter(TOKEN, "42", transport=httpx.MockTransport(handler))
+    a = Alerter(TOKEN, "42", transport=httpx.MockTransport(handler), sleep=lambda s: None)
     assert a.send("x") is False
     assert a.last_error and TOKEN not in a.last_error
+
+
+def test_alerter_retries_transient_telegram_errors():
+    codes = iter([504, 502, 200])
+    sleeps = []
+    a = Alerter(TOKEN, "42", transport=httpx.MockTransport(lambda req: httpx.Response(next(codes))), sleep=sleeps.append)
+    assert a.send("x") is True and a.last_error is None
+    assert sleeps == [5.0, 10.0]
+
+
+def test_alerter_does_not_retry_client_errors_and_reports_description():
+    calls = []
+
+    def handler(req):
+        calls.append(req)
+        return httpx.Response(400, json={"ok": False, "description": "Bad Request: chat not found"})
+
+    a = Alerter(TOKEN, "42", transport=httpx.MockTransport(handler), sleep=lambda s: None)
+    assert a.send("x") is False
+    assert len(calls) == 1 and a.last_error == "telegram HTTP 400: Bad Request: chat not found"
+
+
+def test_alerter_honors_retry_after():
+    responses = iter([httpx.Response(429, json={"parameters": {"retry_after": 7}}), httpx.Response(200)])
+    sleeps = []
+    a = Alerter(TOKEN, "42", transport=httpx.MockTransport(lambda req: next(responses)), sleep=sleeps.append)
+    assert a.send("x") is True and sleeps == [7.0]
 
 
 def test_format_events():
